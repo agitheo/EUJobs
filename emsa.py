@@ -48,10 +48,10 @@ def scrapEMSA():
         print ("Job URL:" + ad_url)
         count = 0
         for ad in cell.findAll("td"):
-            if count == 1 :
+            if count == 0 :
                 ad_description = ad.get_text()
                 print ("description: " + ad_description)
-            if count == 3 :
+            if count == 2 :
                 ad_deadline = ad.get_text()
                 print ("deadline: " + ad_deadline)
             count = count + 1
