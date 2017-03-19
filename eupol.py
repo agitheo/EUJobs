@@ -122,4 +122,3 @@ def scrapEUROPOL():
     '''
     print("#========================EUROPOL SCRAPING COMPLETE=================================")
 
-scrapEUROPOL()
