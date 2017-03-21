@@ -34,13 +34,23 @@ def scrapEPSO():
             return str(inputDate)
 
     start = soup.find(attrs={"class": "view-content"})
+    page = 0
+    while (start is not None):
 
-    while start is not None:
 
         table = start.tbody.findAll("tr")
 
         for tr in table:
             print (tr.find(attrs={"class": "views-field views-field-field-epso-locations"}).get_text())
+            print(tr.find(attrs={"class": "views-field views-field-title-field"}).get_text())
+            print(tr.find(attrs={"class": "views-field views-field-title-field"}).a)
+
+        page = int(page) + 1
+        epso_link = epso_link + str(page)
+        html = urllib.request.urlopen(epso_link)
+        text = html.read().decode('utf-8')
+        soup = BeautifulSoup(text, "html.parser")
+        start = soup.find(attrs={"class": "view-content"})
 
     i = 2
 
