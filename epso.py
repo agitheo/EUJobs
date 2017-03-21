@@ -33,7 +33,14 @@ def scrapEPSO():
             print ('Bad Date:',inputDate)
             return str(inputDate)
 
-    start = soup.find(attrs={"name": "chapter1"})
+    start = soup.find(attrs={"class": "view-content"})
+
+    while start is not None:
+
+        table = start.tbody.findAll("tr")
+
+        for tr in table:
+            print (tr.find(attrs={"class": "views-field views-field-field-epso-locations"}).get_text())
 
     i = 2
 
@@ -130,4 +137,8 @@ def scrapEPSO():
 
 
 
+
+
     print("#========================EPSO SCRAPING COMPLETE=================================")
+
+scrapEPSO()
