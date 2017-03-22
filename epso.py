@@ -41,9 +41,22 @@ def scrapEPSO():
         table = start.tbody.findAll("tr")
 
         for tr in table:
+            #print (tr)
             print (tr.find(attrs={"class": "views-field views-field-field-epso-locations"}).get_text())
             print(tr.find(attrs={"class": "views-field views-field-title-field"}).get_text())
-            print(tr.find(attrs={"class": "views-field views-field-title-field"}).a)
+            inst_code= tr.find(attrs={"class": "views-field views-field-field-epso-institution-id"}).get_text()
+            print(tr.find(attrs={"class": "views-field views-field-title-field"}).a.get("href"))
+            dateFormatFull(tr.find(attrs={"class": "views-field views-field-field-epso-deadline"}).get_text())
+
+            # Retrieve the agency's id from eu_institute
+            try:
+                cur.execute('''
+                SELECT id FROM eu_institute WHERE name=?''', (inst_code,))
+                inst_id = cur.fetchone()[0]
+                print(inst_id)
+            except:
+                print("No information for agency/institution: " + inst_code)
+                inst_id = 1
 
         page = int(page) + 1
         epso_link = epso_link + str(page)
@@ -133,7 +146,7 @@ def scrapEPSO():
 
 
             # Insert job details in database
-            persist.dbpers(inst_id, '', str(grade).strip(), '', '', deadline, str(url).strip(), ad_raw, jobType)
+            #persist.dbpers(inst_id, '', str(grade).strip(), '', '', deadline, str(url).strip(), ad_raw, jobType)
 
 
             # Go to the next probable ad for the same institute
