@@ -51,7 +51,7 @@ def scrapEPSO():
             # Retrieve the agency's id from eu_institute
             try:
                 cur.execute('''
-                SELECT id FROM eu_institute WHERE name=?''', (inst_code,))
+                SELECT id FROM eu_institute WHERE description=?''', (inst_code,))
                 inst_id = cur.fetchone()[0]
                 print(inst_id)
             except:
