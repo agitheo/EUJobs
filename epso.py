@@ -35,8 +35,8 @@ def scrapEPSO():
 
     start = soup.find(attrs={"class": "view-content"})
     page = 0
-    while (start is not None):
 
+    while (start is not None):
 
         table = start.tbody.findAll("tr")
 
