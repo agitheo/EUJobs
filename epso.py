@@ -44,14 +44,20 @@ def scrapEPSO():
             #print (tr)
             print (tr.find(attrs={"class": "views-field views-field-field-epso-locations"}).get_text())
             print(tr.find(attrs={"class": "views-field views-field-title-field"}).get_text())
-            inst_code= tr.find(attrs={"class": "views-field views-field-field-epso-institution-id"}).get_text()
+            institute= tr.find(attrs={"class": "views-field views-field-field-epso-institution-id"}).get_text()
             print(tr.find(attrs={"class": "views-field views-field-title-field"}).a.get("href"))
             dateFormatFull(tr.find(attrs={"class": "views-field views-field-field-epso-deadline"}).get_text())
+
+            # Extract the agency code
+            try:
+                inst_code = re.search('\((.*?)\)', institute).groups()[0]
+            except:
+                inst_code = institute
 
             # Retrieve the agency's id from eu_institute
             try:
                 cur.execute('''
-                SELECT id FROM eu_institute WHERE description=?''', (inst_code,))
+                SELECT id FROM eu_institute WHERE name=?''', (inst_code,))
                 inst_id = cur.fetchone()[0]
                 print(inst_id)
             except:
