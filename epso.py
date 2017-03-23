@@ -43,10 +43,13 @@ def scrapEPSO():
         for tr in table:
             #print (tr)
             print (tr.find(attrs={"class": "views-field views-field-field-epso-locations"}).get_text())
-            print(tr.find(attrs={"class": "views-field views-field-title-field"}).get_text())
-            institute= tr.find(attrs={"class": "views-field views-field-field-epso-institution-id"}).get_text()
-            print(tr.find(attrs={"class": "views-field views-field-title-field"}).a.get("href"))
-            dateFormatFull(tr.find(attrs={"class": "views-field views-field-field-epso-deadline"}).get_text())
+            jobTitle = tr.find(attrs={"class": "views-field views-field-title-field"}).get_text()
+            grade = tr.find(attrs={"class": "views-field views-field-field-epso-grade"}).get_text()
+            institute = tr.find(attrs={"class": "views-field views-field-field-epso-institution-id"}).get_text()
+            url = "https://epso.europa.eu"+ tr.find(attrs={"class": "views-field views-field-title-field"}).a.get("href")
+            date_deadline = tr.find(attrs={"class": "views-field views-field-field-epso-deadline"}).get_text()
+            contract = tr.find(attrs={"class": "views-field views-field-field-epso-type-of-contract"}).get_text()
+            deadline = dateFormatFull(date_deadline.split ("-")[0].strip())
 
             # Extract the agency code
             try:
@@ -64,6 +67,22 @@ def scrapEPSO():
                 print("No information for agency/institution: " + inst_code)
                 inst_id = 1
 
+            if re.search('(AD+\d{1,2}?|AD +\d{1,2}?)', grade) is not None:
+                jobType = "AD"
+            elif re.search('(AST+\d{1,2}?|AST +\d{1,2}?)', grade) is not None:
+                jobType = "AST"
+            elif re.search('(FG+\d|FG+III|FG+IV|Function Groups)', grade) is not None:
+                jobType = "CA"
+            elif re.search('(trainee)', grade, re.IGNORECASE) is not None:
+                jobType = "Trainee"
+            elif re.search('(SNE|Seconded)', grade, re.IGNORECASE) is not None:
+                jobType = "SNE"
+            else:
+                jobType = "Other"
+
+            # Insert job details in database
+            persist.dbpers(inst_id, jobTitle, str(grade).strip(), '', '', deadline, str(url).strip(), '', jobType)
+
         page = int(page) + 1
         epso_link = epso_link + str(page)
         html = urllib.request.urlopen(epso_link)
@@ -71,25 +90,31 @@ def scrapEPSO():
         soup = BeautifulSoup(text, "html.parser")
         start = soup.find(attrs={"class": "view-content"})
 
-    i = 2
+        i = 2
+    print("#========================EPSO SCRAPING COMPLETE=================================")
+'''
+        while (start is not None):
 
-    while (start is not None):
+            # Look for the institution's title
+            inst_title = start.next_sibling.next_sibling
 
-        # Look for the institution's title
-        inst_title = start.next_sibling.next_sibling
+            # Extract the agency code
+            inst_code = re.search('\((.*?)\)', inst_title.string).groups()[0]
 
-        # Extract the agency code
-        inst_code = re.search('\((.*?)\)', inst_title.string).groups()[0]
+            # Retrieve the agency's id from eu_institute
+            try:
+                cur.execute(''
+                SELECT id FROM eu_institute WHERE name=?'', (inst_code,))
+                inst_id = cur.fetchone()[0]
+            except:
+                print ("No information for agency/institution: " + inst_code)
+                inst_id = 1
+'''
 
-        # Retrieve the agency's id from eu_institute
-        try:
-            cur.execute('''
-            SELECT id FROM eu_institute WHERE name=?''', (inst_code,))
-            inst_id = cur.fetchone()[0]
-        except:
-            print ("No information for agency/institution: " + inst_code)
-            inst_id = 1
-        # Look for the ad
+
+
+
+'''        # Look for the ad
         postItem = inst_title.next_sibling.next_sibling
 
         while postItem.has_attr('class') is not True:
@@ -136,23 +161,10 @@ def scrapEPSO():
 
                 ad_raw = ad_raw + str(piece).strip()
 
-                if re.search('(AD+\d{1,2}?|AD +\d{1,2}?)',ad_raw) is not None:
-                    jobType="AD"
-                elif re.search('(AST+\d{1,2}?|AST +\d{1,2}?)',ad_raw)is not None:
-                    jobType="AST"
-                elif re.search('(FG+\d|FG+III|FG+IV|Function Groups)',ad_raw)is not None:
-                    jobType="CA"
-                elif re.search('(trainee)',ad_raw,re.IGNORECASE)is not None:
-                    jobType="Trainee"
-                elif re.search('(SNE|Seconded)',ad_raw,re.IGNORECASE)is not None:
-                    jobType="SNE"
-                else:
-                    jobType="Other"
 
 
 
-            # Insert job details in database
-            #persist.dbpers(inst_id, '', str(grade).strip(), '', '', deadline, str(url).strip(), ad_raw, jobType)
+
 
 
             # Go to the next probable ad for the same institute
@@ -165,9 +177,5 @@ def scrapEPSO():
         i = i + 1
 
 
+'''
 
-
-
-    print("#========================EPSO SCRAPING COMPLETE=================================")
-
-scrapEPSO()
