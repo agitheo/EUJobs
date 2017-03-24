@@ -69,7 +69,7 @@ for position in current_possitions:
     str(position).encode('utf-8')
     html.write('<tr> <td>' + str(position[0])+ "</td>"+ "<td>" + str(position[1]) + "</td>" )
     html.write("<td>" + str(position[2]) + "</td>"+ "<td>" + str(position[3]) + "</td>")
-    html.write("<td>" + str(position[4])[:-3] + "</td>"+ "<td>" + str(position[5]) + "</td>")
+    html.write("<td>" + str(position[4]) + "</td>"+ "<td>" + str(position[5]) + "</td>")
     #html.write( "<td>" + str(position[6]).encode('utf-8') + "</td>" + "<td> <a href=" + position[7] + ">link</a></td>")
     html.write ("<td>" +str(position[6].encode('utf-8')).strip()[2:-1]+ "</td>")
     html.write( "<td> <a href="+ position[7] + "  target=_blank>link</a></td> <td>" + str(position[8]).strip('</br>') + "</td>")

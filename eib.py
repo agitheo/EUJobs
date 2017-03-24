@@ -41,6 +41,8 @@ def scrapEIB():
 
     soup = BeautifulSoup(html, "html.parser")
 
+
+
     # Find the first ad
     start = soup.findAll(attrs={"class":"PSLEVEL1GRIDNBO"})
 
@@ -58,12 +60,14 @@ def scrapEIB():
     for table in start:
         row=0
         for ad in table.findAll("tr"):
-            titleId = "win0divPOSTINGTITLE$" + str(row)
+            titleId = "win0divHRS_SCH_WRK_HRS_HTMLAREA$" + str(row)
             jobId = "win0divJOBNUMBER$" + str(row)
             deptId = "win0divJOB_FUNCTION2$" + str(row)
             deadlId = "win0divOPENED$" + str(row)
             whereId =  "win0divHRS_LOCATION_DESCR$" + str(row)
             busUnitId = "win0divBUS_UNIT_TBL_HR_DESCR$127$$" + str(row)
+
+
 
 
             jobTitle = drill(titleId)
@@ -94,4 +98,4 @@ def scrapEIB():
 
     print("#========================= EUROPEAN INVESTMENT BANK SCRAPING COMPLETE=========================")
 
-#scrapEIB()
+scrapEIB()

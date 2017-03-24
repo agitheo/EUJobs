@@ -21,6 +21,20 @@ def scrapEUROPOL():
     html = urllib.request.urlopen(europol_link)
     soup = BeautifulSoup(html, "html.parser")
 
+    def dateFormatFull (inputDate):
+        dnotz = None
+        for form in ['%d %b %Y', '%d %b %y',
+        '%d %B %Y','%d/%m/%Y','%d.%m.%Y']:
+            try:
+                dnotz = datetime.strptime(inputDate, form).date()
+                return str(dnotz)
+            except:
+                continue
+
+        if dnotz is None :
+            print ('Bad Date:',inputDate)
+            return str(inputDate)
+
     # Find all ads
 
     start = soup.findAll(attrs={"class":re.compile("^views-row views-row-")})
@@ -31,7 +45,9 @@ def scrapEUROPOL():
     for advert in start:
         try:
             deadline = advert.find(attrs={"class":"views-field views-field-deadline"}).findAll('span')[1].get_text()
-            print ("Deadline:",deadline)
+            deadlineFormatted = dateFormatFull(deadline)
+            print ("Deadline:",dateFormatFull(deadline))
+
 
 
             print("Contract Type:", advert.find(attrs={"class": "views-field views-field-contract-type"}).find('span').get_text())
@@ -47,17 +63,13 @@ def scrapEUROPOL():
 
             url = "http://www.europol.europa.eu" + advert.find("a").get("href")
             print("Link:", url)
+
         except:
 
             continue
 
 
-        try:
-            date_object = datetime.strptime(deadline, '%d/%m/%Y')
-            deadline = date_object.date()
-        except:
-            print ("could not modify " + deadline)
-            pass
+
 
         if re.search('(AD+\d{1,2}?|AD +\d{1,2}?|TA)',title) is not None:
             jobType="AD"
@@ -72,8 +84,8 @@ def scrapEUROPOL():
         else:
             jobType="Other"
 
-        print(int(europol_id), str(jobTitle).strip(), '', str(dept).strip(), str(title).strip(), deadline, str(url).strip(), '', jobType)
-        persist.dbpers(int(europol_id), str(jobTitle).strip(), '', str(dept).strip(), str(title).strip(), deadline,str(url).strip(), '', jobType)
+        print(int(europol_id), str(jobTitle).strip(), '', str(dept).strip(), str(title).strip(), deadlineFormatted, str(url).strip(), '', jobType)
+        persist.dbpers(int(europol_id), str(jobTitle).strip(), '', str(dept).strip(), str(title).strip(), deadlineFormatted,str(url).strip(), '', jobType)
 
 
     '''for div in start.findAll(attrs={"class":"views-field views-field-department"}):
