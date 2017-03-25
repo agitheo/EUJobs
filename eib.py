@@ -97,5 +97,3 @@ def scrapEIB():
 
 
     print("#========================= EUROPEAN INVESTMENT BANK SCRAPING COMPLETE=========================")
-
-scrapEIB()
