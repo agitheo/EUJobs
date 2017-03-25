@@ -66,7 +66,6 @@ def scrapEPSO():
             except:
                 print("No information for agency/institution: " + inst_code)
                 inst_id = 1
-
             if re.search('(AD+\d{1,2}?|AD +\d{1,2}?)', grade) is not None:
                 jobType = "AD"
             elif re.search('(AST+\d{1,2}?|AST +\d{1,2}?)', grade) is not None:
@@ -81,7 +80,7 @@ def scrapEPSO():
                 jobType = "Other"
 
             # Insert job details in database
-            persist.dbpers(inst_id, jobTitle, str(grade).strip(), '', '', deadline, str(url).strip(), '', jobType)
+            persist.dbpers(1, jobTitle, str(grade).strip(), institute, '', deadline, str(url).strip(), '', jobType)
 
         page = int(page) + 1
         epso_link = epso_link + str(page)

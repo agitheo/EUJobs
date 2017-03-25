@@ -19,7 +19,7 @@ cur.execute ('''SELECT COUNT (DISTINCT eu_institute.description) FROM eu_institu
 intstNum = cur.fetchone()
 
 
-html = open("eJobs_index.html",'w')
+html = open("index.html",'w')
 
 html.write('<!DOCTYPE html> <html> <head> \
 <meta name="viewport" content="width=device-width, initial-scale=1"> \
