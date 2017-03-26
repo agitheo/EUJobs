@@ -35,13 +35,16 @@ def scrapEIB():
         html = response.read()
 
     finalUrl = req.get_full_url()
+
     #full_link = eib_link + str(data)
 
 
     soup = BeautifulSoup(html, "html.parser")
 
+
+
     # Find the first ad
-    start = soup.findAll(attrs={"class":"PSLEVEL1GRID"})
+    start = soup.findAll('a')
 
     # Retrieve text based on div id
     def drill(divId):
@@ -57,12 +60,14 @@ def scrapEIB():
     for table in start:
         row=0
         for ad in table.findAll("tr"):
-            titleId = "win0divPOSTINGTITLE$" + str(row)
+            titleId = "trHRS_AGNT_RSLT_I$0_row" + str(row)
             jobId = "win0divJOBNUMBER$" + str(row)
             deptId = "win0divJOB_FUNCTION2$" + str(row)
             deadlId = "win0divOPENED$" + str(row)
             whereId =  "win0divHRS_LOCATION_DESCR$" + str(row)
             busUnitId = "win0divBUS_UNIT_TBL_HR_DESCR$127$$" + str(row)
+
+
 
 
             jobTitle = drill(titleId)
@@ -87,7 +92,7 @@ def scrapEIB():
                 print("could not modify " + deadline)
                 pass
 
-            persist.dbpers(int(eib_id), str(jobTitle).strip(), '', str(dept).strip(), '', str(deadline).strip(), finalUrl, where + " " + busUnit, jobType)
+            #persist.dbpers(int(eib_id), str(jobTitle).strip(), '', str(dept).strip(), '', str(deadline).strip(), finalUrl, where + " " + busUnit, jobType)
 
 
 

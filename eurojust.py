@@ -21,6 +21,22 @@ def scrapEurojust():
     html = urllib.request.urlopen(eurojust_link)
     soup = BeautifulSoup(html, "html.parser")
 
+
+    def dateFormatFull (inputDate):
+
+        dnotz = None
+        for form in ['%d/%m/%Y', '%d %m %Y', '%d %b %Y', '%d %b %y',
+        '%d %B %Y','%d.%m.%Y','%m/%d/%Y','%x']:
+            try:
+                dnotz = datetime.strptime(inputDate.strip(), form).date()
+                return str(dnotz)
+            except:
+                continue
+
+        if dnotz is None :
+            print ('Bad Date:',inputDate)
+            return str(inputDate)
+
     # Find the first ad
     start = soup.findAll("table",attrs={"class":"vacancyAnnouncements2"})
 
@@ -28,7 +44,7 @@ def scrapEurojust():
     # Iterate through the tables
     for table in start:
         for ad in table.findAll("tr",attrs={"class":"vacancyAnnouncements2Row" or "vacancyAnnouncements2AlternatingRow"}):
-            title = jobType =deadline = url = jobTitle = None
+            title = jobType = deadline = url = jobTitle = None
 
             for piece in ad.findAll("td"):
                 if (title is None):
@@ -39,12 +55,13 @@ def scrapEurojust():
                     jobTitle = piece.get_text()
                     continue
                 elif (deadline is None):
-                    deadline = piece.get_text()
+                    deadline = piece.get_text()[1:]
+                    deadlineFormatted = dateFormatFull(str(deadline).replace('/',' '))
                     continue
                 else:
                     pass
 
-                print (jobTitle, deadline)
+                print (jobTitle, deadlineFormatted)
                 if re.search('(AD+\d{1,2}?|AD +\d{1,2}?|TA)',title) is not None:
                     jobType="AD"
                 elif re.search('(AST+\d{1,2}?|AST +\d{1,2}?)',title)is not None:
@@ -58,7 +75,7 @@ def scrapEurojust():
                 else:
                     jobType="Other"
 
-                persist.dbpers(int(eurojust_id), str(jobTitle).strip(), '', '', str(title).strip(), str(deadline).strip(), str(url).strip(), '', jobType)
+                persist.dbpers(int(eurojust_id), str(jobTitle).strip(), '', '', str(title).strip(), deadlineFormatted, str(url).strip(), '', jobType)
 
         for ad in table.findAll("tr",attrs={"class" : "vacancyAnnouncements2AlternatingRow"}):
             title = deadline = url = jobTitle = jobType = None
@@ -73,17 +90,18 @@ def scrapEurojust():
                     continue
                 elif (deadline is None):
                     deadline = piece.get_text().strip()
+                    deadlineFormatted = dateFormatFull(deadline)
                     continue
                 else:
                     pass
             print (jobTitle, deadline)
-            try:
+            '''try:
                 date_object = datetime.strptime(str(deadline.strip), '%d/%m/%Y')
                 deadline = date_object.date()
                 return deadline
             except:
                 pass
-
+'''
             if re.search('(AD+\d{1,2}?|AD +\d{1,2}?|TA)',title) is not None:
                 jobType="AD"
             elif re.search('(AST+\d{1,2}?|AST +\d{1,2}?)',title)is not None:
@@ -98,6 +116,5 @@ def scrapEurojust():
                 jobType="Other"
 
             # Insert job details in database
-            persist.dbpers(int(eurojust_id), str(jobTitle).strip(), '', '', str(title).strip(), deadline, str(url).strip(), '', jobType)
+            persist.dbpers(int(eurojust_id), str(jobTitle).strip(), '', '', str(title).strip(), deadlineFormatted, str(url).strip(), '', jobType)
     print("#========================EUROJUST SCRAPING COMPLETE=================================")
-
