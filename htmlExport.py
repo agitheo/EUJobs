@@ -8,7 +8,7 @@ conn = sqlite3.connect('euJobs.sqlite')
 cur = conn.cursor()
 
 cur.execute ('''SELECT eu_institute.description, eu_institute.country, eu_institute.address,
-eu_job.title, eu_job.grade, eu_job.description, eu_job.deadline, eu_job.link, eu_job.other, eu_job.type
+eu_job.title, eu_job.grade, eu_job.description, eu_job.deadline, eu_job.department , eu_job.link, eu_job.other, eu_job.type
 FROM eu_institute, eu_job WHERE eu_institute.id=eu_job.eu_institute_id ORDER BY eu_job.deadline ASC''')
 
 current_possitions = cur.fetchall()
@@ -54,11 +54,10 @@ background:#e9e9e9; \
           <th data-priority="3">City</th> \
           <th data-priority="4">Post</th> \
           <th data-priority="5">Grade</th> \
-          <th data-priority="6">Code</th> \
+          <th data-priority="6">Department</th> \
           <th data-priority="7">Deadline</th> \
           <th data-priority="8">Link</th> \
-          <th data-priority="9">Other</th> \
-        <th data-priority="10">Type</th> \
+          <th data-priority="9">Type</th> \
         </tr> \
       </thead> \
       <tbody> \
@@ -68,12 +67,11 @@ background:#e9e9e9; \
 for position in current_possitions:
     str(position).encode('utf-8')
     html.write('<tr> <td>' + str(position[0])+ "</td>"+ "<td>" + str(position[1]) + "</td>" )
-    html.write("<td>" + str(position[2]) + "</td>"+ "<td>" + str(position[3]) + "</td>")
-    html.write("<td>" + str(position[4]) + "</td>"+ "<td>" + str(position[5]) + "</td>")
+    html.write("<td>" + str(position[2]) + "</td>"+ "<td>" + str(position[3]) + " " + str(position[4]) + "</td>")
+    html.write("<td>" + str(position[5]) + "</td>"+ "<td>" + str(position[7])+  "</td>")
     #html.write( "<td>" + str(position[6]).encode('utf-8') + "</td>" + "<td> <a href=" + position[7] + ">link</a></td>")
-    html.write ("<td>" +str(position[6].encode('utf-8')).strip()[2:-1]+ "</td>")
-    html.write( "<td> <a href="+ position[7] + "  target=_blank>link</a></td> <td>" + str(position[8]).strip('</br>') + "</td>")
-    html.write ("<td>" +str(position[9])+ "</td> </tr>")
+    html.write ("<td>" + str(position[6])+ "</td>")
+    html.write( "<td> <a href="+ position[8] + "  target=_blank>link</a></td> <td>" + str(position[10]).strip('</br></tr>') + "</td>")
 
 
 

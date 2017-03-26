@@ -44,7 +44,7 @@ def scrapEIB():
 
 
     # Find the first ad
-    start = soup.findAll(attrs={"class":"PSLEVEL1GRIDNBO"})
+    start = soup.findAll('a')
 
     # Retrieve text based on div id
     def drill(divId):
@@ -60,7 +60,7 @@ def scrapEIB():
     for table in start:
         row=0
         for ad in table.findAll("tr"):
-            titleId = "win0divHRS_SCH_WRK_HRS_HTMLAREA$" + str(row)
+            titleId = "trHRS_AGNT_RSLT_I$0_row" + str(row)
             jobId = "win0divJOBNUMBER$" + str(row)
             deptId = "win0divJOB_FUNCTION2$" + str(row)
             deadlId = "win0divOPENED$" + str(row)

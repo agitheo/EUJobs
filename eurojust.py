@@ -23,6 +23,7 @@ def scrapEurojust():
 
 
     def dateFormatFull (inputDate):
+
         dnotz = None
         for form in ['%d/%m/%Y', '%d %m %Y', '%d %b %Y', '%d %b %y',
         '%d %B %Y','%d.%m.%Y','%m/%d/%Y','%x']:
@@ -54,7 +55,7 @@ def scrapEurojust():
                     jobTitle = piece.get_text()
                     continue
                 elif (deadline is None):
-                    deadline = piece.get_text()
+                    deadline = piece.get_text()[1:]
                     deadlineFormatted = dateFormatFull(str(deadline).replace('/',' '))
                     continue
                 else:
@@ -117,5 +118,3 @@ def scrapEurojust():
             # Insert job details in database
             persist.dbpers(int(eurojust_id), str(jobTitle).strip(), '', '', str(title).strip(), deadlineFormatted, str(url).strip(), '', jobType)
     print("#========================EUROJUST SCRAPING COMPLETE=================================")
-
-scrapEurojust()
