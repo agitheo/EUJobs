@@ -40,7 +40,7 @@ background:#e9e9e9; \
 <body> \
 <div data-role="page" id="pageone"> \
   <div data-role="header"> \
-    <h1><a href="linestats2.html" target="_blank">'+str(len(current_possitions))+' Posts available from '+ str(intstNum)[1:-2] +' EU institutions</a></h1> \
+    <h1><a href="lineStats2.html" target="_blank">'+str(len(current_possitions))+' Posts available from '+ str(intstNum)[1:-2] +' EU institutions</a></h1> \
   </div> \
   <div data-role="main" class="ui-content"> \
     <form> \
