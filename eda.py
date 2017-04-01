@@ -1,22 +1,20 @@
-import sqlite3
+import database
 import urllib
 import urllib.request
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-import persist
+
 
 
 def scrapEDA():
 
     print("#========================= EDA SCRAPING =========================")
-    conn = sqlite3.connect('euJobs.sqlite')
-    cur = conn.cursor()
-    cur.execute('''
-    SELECT * FROM eu_institute WHERE name="EDA"''')
-    eda_q = cur.fetchone()
-    eda_link = eda_q[7]
-    eda_id = eda_q[0]
+    eda = database.dataBase()
+    edaData = eda.returnAgency('EDA')
+
+    eda_link = edaData['link'][0]
+    eda_id = edaData['id'][0]
 
     user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36"
     headers = { 'User-Agent' : user_agent }
@@ -87,9 +85,11 @@ def scrapEDA():
                 pass
 
             # Insert job details in database
-            persist.dbpers(int(eda_id), str(post_title).strip(), str(post_grade), '', '', deadline, str(ta_link).strip(), '', job_type)
+            eda.persist(int(eda_id), str(post_title).strip(), str(post_grade), '', '', deadline, str(ta_link).strip(), '', job_type)
     #except:
      #   pass
 
 
     print("#========================EDA SCRAPING COMPLETE=================================")
+
+scrapEDA()

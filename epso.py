@@ -1,20 +1,19 @@
 import re
-import sqlite3
+import database
 import urllib.request
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-import persist
+
 
 
 def scrapEPSO():
 
     print("#========================= EPSO SCRAPING =========================")
-    conn = sqlite3.connect('euJobs.sqlite')
-    cur = conn.cursor()
-    cur.execute('''
-    SELECT * FROM eu_institute WHERE name="EPSO"''')
-    epso_link = cur.fetchone()[7]
+    epso = database.dataBase()
+    epsoData = epso.returnAgency('EPSO')
+    epso_link = epsoData['link'][0]
+
     html = urllib.request.urlopen(epso_link)
     text = html.read().decode('utf-8')
     soup = BeautifulSoup(text, "html.parser")
@@ -80,7 +79,7 @@ def scrapEPSO():
                 jobType = "Other"
 
             # Insert job details in database
-            persist.dbpers(1, jobTitle, str(grade).strip(), str(institute).strip(), '', deadline, str(url).strip(), '', jobType)
+            epso.persist(1, jobTitle, str(grade).strip(), str(institute).strip(), '', deadline, str(url).strip(), '', jobType)
 
         page = int(page) + 1
         epso_link = epso_link + str(page)
@@ -177,5 +176,3 @@ def scrapEPSO():
 
 
 '''
-
-scrapEPSO()
