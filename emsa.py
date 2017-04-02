@@ -1,23 +1,19 @@
+import database as emsa
 import re
-import sqlite3
 import urllib
 import urllib.request
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-import persist
 
 
 def scrapEMSA():
 
     print("#========================= EMSA SCRAPING =========================")
-    conn = sqlite3.connect('euJobs.sqlite')
-    cur = conn.cursor()
-    cur.execute('''
-    SELECT * FROM eu_institute WHERE name="EMSA"''')
-    emsa_q = cur.fetchone()
-    emsa_link = emsa_q[7]
-    emsa_id = emsa_q[0]
+
+    emsaData = emsa.returnAgency('EMSA')
+    emsa_link = emsaData['link'][0]
+    emsa_id = emsaData['id'][0]
 
     user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36"
     headers = { 'User-Agent' : user_agent }
@@ -26,8 +22,6 @@ def scrapEMSA():
 
 
     req = urllib.request.Request(emsa_link,data,headers)
-
-    print(emsa_link)
 
     with urllib.request.urlopen(req) as response:
         html = response.read()
@@ -83,7 +77,7 @@ def scrapEMSA():
         print (jobType)
 
              # Insert job details in database
-        persist.dbpers(int(emsa_id), str(ad_description).strip(), '', '', str(ad_code).strip(), deadline, str(ad_url).strip(), '', jobType)
+        emsa.persist(int(emsa_id), str(ad_description).strip(), '', '', str(ad_code).strip(), deadline, str(ad_url).strip(), '', jobType)
 
     print("#========================EMSA SCRAPING COMPLETE=================================")
 

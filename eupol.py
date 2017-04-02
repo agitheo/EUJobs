@@ -1,22 +1,21 @@
 import re
-import sqlite3
+import database as europol
 import urllib.request
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-import persist
+
 
 
 def scrapEUROPOL():
 
     print("#========================= EUROPOL SCRAPING =========================")
-    conn = sqlite3.connect('euJobs.sqlite')
-    cur = conn.cursor()
-    cur.execute('''
-    SELECT * FROM eu_institute WHERE name="EUROPOL"''')
-    europol_q = cur.fetchone()
-    europol_link = europol_q[7]
-    europol_id = europol_q[0]
+
+    europolData = europol.returnAgency('EUROPOL')
+
+
+    europol_link = europolData['link'][0]
+    europol_id = europolData['id'][0]
 
     html = urllib.request.urlopen(europol_link)
     soup = BeautifulSoup(html, "html.parser")
@@ -85,7 +84,7 @@ def scrapEUROPOL():
             jobType="Other"
 
         print(int(europol_id), str(jobTitle).strip(), '', str(dept).strip(), str(title).strip(), deadlineFormatted, str(url).strip(), '', jobType)
-        persist.dbpers(int(europol_id), str(jobTitle).strip(), '', str(dept).strip(), str(title).strip(), deadlineFormatted,str(url).strip(), '', jobType)
+        europol.persist(int(europol_id), str(jobTitle).strip(), '', str(dept).strip(), str(title).strip(), deadlineFormatted,str(url).strip(), '', jobType)
 
 
     '''for div in start.findAll(attrs={"class":"views-field views-field-department"}):
