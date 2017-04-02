@@ -1,20 +1,19 @@
 import re
-import sqlite3
+import database as epso
 import urllib.request
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-import persist
+
 
 
 def scrapEPSO():
 
     print("#========================= EPSO SCRAPING =========================")
-    conn = sqlite3.connect('euJobs.sqlite')
-    cur = conn.cursor()
-    cur.execute('''
-    SELECT * FROM eu_institute WHERE name="EPSO"''')
-    epso_link = cur.fetchone()[7]
+
+    epsoData = epso.returnAgency('EPSO')
+    epso_link = epsoData['link'][0]
+
     html = urllib.request.urlopen(epso_link)
     text = html.read().decode('utf-8')
     soup = BeautifulSoup(text, "html.parser")
@@ -58,14 +57,9 @@ def scrapEPSO():
                 inst_code = institute
 
             # Retrieve the agency's id from eu_institute
-            try:
-                cur.execute('''
-                SELECT id FROM eu_institute WHERE name=?''', (inst_code,))
-                inst_id = cur.fetchone()[0]
-                print(inst_id)
-            except:
-                print("No information for agency/institution: " + str(inst_code).strip())
-                inst_id = 1
+
+            inst_id = epso.EPSOinstitution(inst_code)
+
             if re.search('(AD+\d{1,2}?|AD +\d{1,2}?)', grade) is not None:
                 jobType = "AD"
             elif re.search('(AST+\d{1,2}?|AST +\d{1,2}?)', grade) is not None:
@@ -80,7 +74,8 @@ def scrapEPSO():
                 jobType = "Other"
 
             # Insert job details in database
-            persist.dbpers(1, jobTitle, str(grade).strip(), str(institute).strip(), '', deadline, str(url).strip(), '', jobType)
+            epso.persist(inst_id[0], jobTitle, str(grade).strip(), str(institute).strip(), '', deadline, str(url).strip(), inst_id[1], jobType)
+            print (inst_id[0], jobTitle, str(grade).strip(), str(institute).strip(), '', deadline, str(url).strip(), inst_id[1], jobType)
 
         page = int(page) + 1
         epso_link = epso_link + str(page)
@@ -91,6 +86,7 @@ def scrapEPSO():
 
         i = 2
     print("#========================EPSO SCRAPING COMPLETE=================================")
+
 '''
         while (start is not None):
 
@@ -177,5 +173,3 @@ def scrapEPSO():
 
 
 '''
-
-scrapEPSO()

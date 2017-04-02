@@ -1,22 +1,22 @@
+import database as eurojust
 import re
-import sqlite3
 import urllib.request
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-import persist
 
 
 def scrapEurojust():
 
     print("#========================= EUROJUST SCRAPING =========================")
-    conn = sqlite3.connect('euJobs.sqlite')
-    cur = conn.cursor()
-    cur.execute('''
-    SELECT * FROM eu_institute WHERE name="EUROJUST"''')
-    eurojust_q = cur.fetchone()
-    eurojust_link = eurojust_q[7]
-    eurojust_id = eurojust_q[0]
+
+    # Database connection and agency retrieval
+
+    eurojustData = eurojust.returnAgency('EUROJUST')
+    eurojust_link = eurojustData['link'][0]
+    eurojust_id = eurojustData['id'][0]
+
+
 
     html = urllib.request.urlopen(eurojust_link)
     soup = BeautifulSoup(html, "html.parser")
@@ -75,7 +75,7 @@ def scrapEurojust():
                 else:
                     jobType="Other"
 
-                persist.dbpers(int(eurojust_id), str(jobTitle).strip(), '', '', str(title).strip(), deadlineFormatted, str(url).strip(), '', jobType)
+                eurojust.persist(int(eurojust_id), str(jobTitle).strip(), '', '', str(title).strip(), deadlineFormatted, str(url).strip(), '', jobType)
 
         for ad in table.findAll("tr",attrs={"class" : "vacancyAnnouncements2AlternatingRow"}):
             title = deadline = url = jobTitle = jobType = None
@@ -116,5 +116,6 @@ def scrapEurojust():
                 jobType="Other"
 
             # Insert job details in database
-            persist.dbpers(int(eurojust_id), str(jobTitle).strip(), '', '', str(title).strip(), deadlineFormatted, str(url).strip(), '', jobType)
+            eurojust.persist(int(eurojust_id), str(jobTitle).strip(), '', '', str(title).strip(), deadlineFormatted, str(url).strip(), '', jobType)
     print("#========================EUROJUST SCRAPING COMPLETE=================================")
+
