@@ -38,5 +38,21 @@ def clean():
     conn.commit()
 
 
+def EPSOinstitution(inst_code):
 
+    conn = sqlite3.connect('euJobs.sqlite')
+    cur = conn.cursor()
+
+    try:
+        cur.execute('''
+        SELECT id FROM eu_institute WHERE name=?''', (inst_code,))
+        inst_id = cur.fetchone()[0]
+        print(inst_id)
+        other = 'EPSO'
+        return inst_id, other
+    except:
+        print("No information for agency/institution: " + str(inst_code).strip())
+        inst_id = 1
+        other = 'EPSO'
+        return inst_id, other
 

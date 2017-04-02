@@ -57,14 +57,9 @@ def scrapEPSO():
                 inst_code = institute
 
             # Retrieve the agency's id from eu_institute
-            try:
-                cur.execute('''
-                SELECT id FROM eu_institute WHERE name=?''', (inst_code,))
-                inst_id = cur.fetchone()[0]
-                print(inst_id)
-            except:
-                print("No information for agency/institution: " + str(inst_code).strip())
-                inst_id = 1
+
+            inst_id = epso.EPSOinstitution(inst_code)
+
             if re.search('(AD+\d{1,2}?|AD +\d{1,2}?)', grade) is not None:
                 jobType = "AD"
             elif re.search('(AST+\d{1,2}?|AST +\d{1,2}?)', grade) is not None:
@@ -79,7 +74,8 @@ def scrapEPSO():
                 jobType = "Other"
 
             # Insert job details in database
-            epso.persist(1, jobTitle, str(grade).strip(), str(institute).strip(), '', deadline, str(url).strip(), '', jobType)
+            epso.persist(inst_id[0], jobTitle, str(grade).strip(), str(institute).strip(), '', deadline, str(url).strip(), inst_id[1], jobType)
+            print (inst_id[0], jobTitle, str(grade).strip(), str(institute).strip(), '', deadline, str(url).strip(), inst_id[1], jobType)
 
         page = int(page) + 1
         epso_link = epso_link + str(page)
@@ -90,6 +86,7 @@ def scrapEPSO():
 
         i = 2
     print("#========================EPSO SCRAPING COMPLETE=================================")
+
 '''
         while (start is not None):
 
