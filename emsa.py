@@ -1,4 +1,4 @@
-import database
+import database as emsa
 import re
 import urllib
 import urllib.request
@@ -10,7 +10,7 @@ from datetime import datetime
 def scrapEMSA():
 
     print("#========================= EMSA SCRAPING =========================")
-    emsa = database.dataBase()
+
     emsaData = emsa.returnAgency('EMSA')
     emsa_link = emsaData['link'][0]
     emsa_id = emsaData['id'][0]

@@ -1,5 +1,5 @@
 import re
-import database
+import database as epso
 import urllib.request
 from bs4 import BeautifulSoup
 from datetime import datetime
@@ -10,7 +10,7 @@ from datetime import datetime
 def scrapEPSO():
 
     print("#========================= EPSO SCRAPING =========================")
-    epso = database.dataBase()
+
     epsoData = epso.returnAgency('EPSO')
     epso_link = epsoData['link'][0]
 

@@ -1,4 +1,4 @@
-import database
+import database as eurojust
 import re
 import urllib.request
 from bs4 import BeautifulSoup
@@ -11,7 +11,7 @@ def scrapEurojust():
     print("#========================= EUROJUST SCRAPING =========================")
 
     # Database connection and agency retrieval
-    eurojust = database.dataBase()
+
     eurojustData = eurojust.returnAgency('EUROJUST')
     eurojust_link = eurojustData['link'][0]
     eurojust_id = eurojustData['id'][0]
@@ -119,4 +119,3 @@ def scrapEurojust():
             eurojust.persist(int(eurojust_id), str(jobTitle).strip(), '', '', str(title).strip(), deadlineFormatted, str(url).strip(), '', jobType)
     print("#========================EUROJUST SCRAPING COMPLETE=================================")
 
-scrapEurojust()

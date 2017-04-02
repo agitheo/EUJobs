@@ -1,4 +1,4 @@
-import database
+import database as eda
 import urllib
 import urllib.request
 from bs4 import BeautifulSoup
@@ -10,7 +10,7 @@ from datetime import datetime
 def scrapEDA():
 
     print("#========================= EDA SCRAPING =========================")
-    eda = database.dataBase()
+
     edaData = eda.returnAgency('EDA')
 
     eda_link = edaData['link'][0]
@@ -92,4 +92,3 @@ def scrapEDA():
 
     print("#========================EDA SCRAPING COMPLETE=================================")
 
-scrapEDA()
