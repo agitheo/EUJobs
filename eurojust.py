@@ -43,7 +43,7 @@ def scrapEurojust():
 
     # Iterate through the tables
     for table in start:
-        for ad in table.findAll("tr",attrs={"class":"vacancyAnnouncements2Row" or "vacancyAnnouncements2AlternatingRow"}):
+        for ad in table.findAll("tr",attrs={"class":"vacancyAnnouncements2Row"}):
             title = jobType = deadline = url = jobTitle = None
 
             for piece in ad.findAll("td"):
@@ -77,6 +77,7 @@ def scrapEurojust():
 
                 eurojust.persist(int(eurojust_id), str(jobTitle).strip(), '', '', str(title).strip(), deadlineFormatted, str(url).strip(), '', jobType)
 
+
         for ad in table.findAll("tr",attrs={"class" : "vacancyAnnouncements2AlternatingRow"}):
             title = deadline = url = jobTitle = jobType = None
 
@@ -89,12 +90,13 @@ def scrapEurojust():
                     jobTitle = piece.get_text()
                     continue
                 elif (deadline is None):
-                    deadline = piece.get_text().strip()
-                    deadlineFormatted = dateFormatFull(deadline)
+                    deadline = piece.get_text()[1:]
+                    deadlineFormatted = dateFormatFull(str(deadline).replace('/', ' '))
                     continue
+
                 else:
                     pass
-            print (jobTitle, deadline)
+            print (jobTitle, deadlineFormatted)
             '''try:
                 date_object = datetime.strptime(str(deadline.strip), '%d/%m/%Y')
                 deadline = date_object.date()
@@ -117,5 +119,5 @@ def scrapEurojust():
 
             # Insert job details in database
             eurojust.persist(int(eurojust_id), str(jobTitle).strip(), '', '', str(title).strip(), deadlineFormatted, str(url).strip(), '', jobType)
-    print("#========================EUROJUST SCRAPING COMPLETE=================================")
 
+    print("#========================EUROJUST SCRAPING COMPLETE=================================")

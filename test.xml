@@ -1,0 +1,712 @@
+
+<ArrayOfVacancy xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/RecruitmentWebApi.Models"><Vacancy><Annexe><OriginalFilename>RTDI002.pdf.pdf</OriginalFilename><SavedFilename>571e4355f9d71f08ac4160f2.pdf</SavedFilename></Annexe><Conditions>Duration: Initial 3 months assignment with a possibility of extension.</Conditions><DateStatus>2016-08-17T09:49:58.127Z</DateStatus><Description>The implementation of RTDI (Research, Technology Development and Innovation) initiatives at SatCen
+aims at evaluating innovative solutions with regard to the whole data lifecycle on transversal issues
+such as Big Data, Data Science and Virtual Research Environments as well as at establishing
+cooperation with key international organisations in the Space field such as ESA and GEO.
+
+Expected assignment:
+To support the work of the RTDI Team by contributing to the development of new solutions,
+applications and services to extract knowledge and information from geospatial data.</Description><ExpireOn>2016-07-01T17:05:47.203Z</ExpireOn><Id>571cfe1dcb80aa616c276e11</Id><InternalOnly>false</InternalOnly><PublishedOn>2016-04-24T17:10:53.132Z</PublishedOn><Qualifications>Desirable Expertise: Graduate in Data Science or a relevant field.</Qualifications><Reference>TR002</Reference><Requirements i:nil="true" /><Responsibleto>RDTI Officer</Responsibleto><Skills i:nil="true" /><Status>CLOSED</Status><Title>Trainee - RTDI Team</Title><TypePost>Trainee</TypePost><WorkUnit>Capability Development Division - RTDI Team</WorkUnit></Vacancy><Vacancy><Annexe><OriginalFilename>Copernicus001.pdf.pdf</OriginalFilename><SavedFilename>571e4341f9d71f08ac4160f1.pdf</SavedFilename></Annexe><Conditions>Duration: Initial 2 months assignment (July, August 2016), with a possibility of extension.</Conditions><DateStatus>2016-06-28T07:37:40.4Z</DateStatus><Description>Copernicus consists of a complex set of systems which collect data from multiple sources: earth
+observation satellites and in situ sensors such as ground stations, airborne and sea-borne sensors. It
+processes these data and provides users with reliable and up-to-date information through a set of
+services related to environmental and security issues.
+The EU SatCen is contributing to the security dimension of Copernicus and is foreseen as the future
+operator of the Copernicus service in support to EU External Action.
+Expected assignment:
+To support the work of the COPERNICUS Unit by contributing to the mapping of the community of
+users for the future Copernicus Security services in particular Border Surveillance and Support to EU
+External Action.</Description><ExpireOn>2016-06-15T21:59:55.759Z</ExpireOn><Id>571d0073cb80aa616c276e29</Id><InternalOnly>false</InternalOnly><PublishedOn>2016-04-24T17:20:51.485Z</PublishedOn><Qualifications>Desirable Expertise: Graduate in International Security and Defence or related field.</Qualifications><Reference>TR001</Reference><Requirements i:nil="true" /><Responsibleto>Head of Copernicus Unit</Responsibleto><Skills i:nil="true" /><Status>CLOSED</Status><Title>Trainee - Copernicus Unit</Title><TypePost>Trainee</TypePost><WorkUnit>Capability Development - Copernicus Unit</WorkUnit></Vacancy><Vacancy><Annexe i:nil="true" /><Conditions>Seconded National Experts are governed by Article 36 the SatCen Staff Regulations and the SatCen Board
+decision of 18 July 2007.
+ They remain in the service of their employer throughout the period of secondment and shall continue to be paid
+by that employer.
+ Appointments are made for the duration of 6 months to 3 years, with possibility of renewal for a total period not
+exceeding 4 years.
+ The Seconded National Expert will be entitled to a daily subsistence allowance of 75 €.
+ A driving licence is recommended as SATCEN is on an air force base outside Madrid.
+ The successful candidate will be required to take his / her duties during 2013/2014; the starting date will be
+mutually agreed between both parties
+
+SUBMISSION OF APPLICATIONS:
+In order to be considered valid, applications have to be submitted to the Centre via the Permanent Representation of the
+Member State concerned to the following address (European Union Satellite Centre, Apartado de correos nº 511, 28850
+Torrejón de Ardoz, Madrid – SPAIN), and include the following documents:
+ A letter from their employer certifying that, if the candidate is selected, they will agree to the secondment under
+the conditions laid out in the above-mentioned decision of the SATCEN Board.
+ The SATCEN Application Form;
+ A detailed curriculum vitae. Candidates should preferably use the Europass Curriculum Vitae (CV) which may
+be downloaded from the CEDEFOP website (http://europass.cedefop.europa.eu), including a recent passport
+photograph;
+ A cover letter of one page maximum.</Conditions><DateStatus>2017-02-03T10:33:23.428Z</DateStatus><Description>The Training Instructor works under the guidance of the Head of Training Unit. Depending on experience, particular
+duties include:
+ Participating in the delivery of the annual training programme within the established timetable.
+ Research, compile and update training material and courses as directed by the Head of Training;
+ Provide a description of course content, presentation requirements and materials for each course developed;
+ Produce course materials for presentation and to update the Training Knowledge Database;
+ Present courses as the primary or supporting instructor.</Description><ExpireOn>2016-12-31T18:21:01.858Z</ExpireOn><Id>571d0163cb80aa616c276e34</Id><InternalOnly>false</InternalOnly><PublishedOn>2016-04-24T17:24:51.576Z</PublishedOn><Qualifications>At least three years operational experience in Geospatial analysis;
+ Experience of digital imagery processing and analysis, using optical and/or non-optical sensors;
+ Experience of imagery analysis for security, defence or non-proliferation issues would be an advantage;
+ Excellent practical knowledge of GIS software (ERDAS and ESRI ArcGis preferable);
+ Recognized experience, of at least two years, as an instructor in any of the above mentioned topics
+(geospatial preferable);
+ Thorough knowledge of one E.U. language and a very good knowledge of English;
+ A working knowledge of French would be an advantage.</Qualifications><Reference>SatCen/SNE/01-2013</Reference><Requirements> E.U. member state nationality.
+ The possession of security clearance to at least SECRET UE or equivalent. In case the successful candidate is
+not in possession of a clearance, the SATCEN will undertake to request this clearance.</Requirements><Responsibleto>Head of Training Unit</Responsibleto><Skills i:nil="true" /><Status>CLOSED</Status><Title>Geographic Information System (GIS) Instructor</Title><TypePost>SNE</TypePost><WorkUnit>Capability Development Division - Training Unit</WorkUnit></Vacancy><Vacancy><Annexe i:nil="true" /><Conditions> Seconded National Experts are governed by Article 36 the SatCen Staff Regulations and the SatCen Board decision of 18
+July 2007.
+ They remain in the service of their employer throughout the period of secondment and shall continue to be paid by that
+employer.
+ Appointments are made for the duration of 6 months to 3 years, with possibility of renewal for a total period not exceeding
+4 years.
+ The Seconded National Expert will be entitled to a daily subsistence allowance of 75 €.
+ A driving licence is recommended as SATCEN is on an air force base outside Madrid.
+ The successful candidate will be required to take his / her duties during 2013/2014; the starting date will be mutually
+agreed between both parties.
+SUBMISSION OF APPLICATIONS:
+In order to be considered valid, applications have to be submitted to the Centre via the Permanent Representation of the Member
+State concerned to the following address (European Union Satellite Centre, Apartado de correos nº 511, 28850 Torrejón de Ardoz,
+Madrid – SPAIN), and include the following documents:
+ A letter from their employer certifying that, if the candidate is selected, they will agree to the secondment under the
+conditions laid out in the above-mentioned decision of the SATCEN Board.
+ The SATCEN Application Form;
+ A detailed curriculum vitae. Candidates should preferably use the Europass Curriculum Vitae (CV) which may be
+downloaded from the CEDEFOP website (http://europass.cedefop.europa.eu), including a recent passport photograph;
+ A cover letter of one page maximum.</Conditions><DateStatus>2017-02-03T10:33:46.638Z</DateStatus><Description>The Imagery Analyst works under the guidance of the Head of Training. Depending on experience, particular duties include:
+ Participating in the delivery of the annual training programme within the established timetable.
+ Research, compile and update training material and courses as directed by the Head of Training.
+ Provide a description of course content, presentation requirements and materials for each course developed.
+ Produce course materials for presentation and to update the Training Knowledge Database.
+ Present courses as the primary or supporting instructor.</Description><ExpireOn>2016-12-31T18:25:27.13Z</ExpireOn><Id>571d020fcb80aa616c276e36</Id><InternalOnly>false</InternalOnly><PublishedOn>2016-04-24T17:27:43.741Z</PublishedOn><Qualifications>A university degree in one of the following fields GIS, IMINT / GEOINT or Remote Sensing technologies (ie. Data
+processing, photogrammetry, ortho-rectification) attested by a diploma or equivalent qualification;
+ An appropriate professional experience of at least 3 years in one or more of the above mentioned fields;
+ Proven working experience related to the job description in the Security and Defence Domain (military / civilian) and / or in
+support of operations and missions;
+ Proven experience of digital imagery processing and analysis using optical and/or non-optical EO sensors;
+ A good knowledge of the military categories (STANAG 3596);
+ Working knowledge of analysis software, preferably ERDAS, and of GIS software, preferably ESRI ArcGIS;
+ Proven working experience, of at least two years, as an instructor in any of the above mentioned topics (geospatial
+preferable);
+ Thorough knowledge of one E.U. language and a very good knowledge of English;
+ A working knowledge of French would be an advantage.</Qualifications><Reference>SatCen/SNE/02-2013</Reference><Requirements>E.U. member state nationality.
+ The possession of security clearance to at least SECRET UE or equivalent. In case the successful candidate is not in
+possession of a clearance, the SATCEN will undertake to request this clearance.</Requirements><Responsibleto>Head of Training Unit</Responsibleto><Skills i:nil="true" /><Status>CLOSED</Status><Title>Imagery Analyst (Training)</Title><TypePost>SNE</TypePost><WorkUnit>Capability Development Division - Training Unit</WorkUnit></Vacancy><Vacancy><Annexe i:nil="true" /><Conditions>Seconded National Experts are governed by Article 36 the SatCen Staff Regulations and the SatCen Board
+decision of 18 July 2007.
+ They remain in the service of their employer throughout the period of secondment and shall continue to be
+paid by that employer.
+ Appointments are made for the duration of 6 months to 3 years, with possibility of renewal for a total period
+not exceeding 4 years.
+ The Seconded National Expert will be entitled to a daily subsistence allowance of 75 €.
+ A driving licence is recommended as SATCEN is on an air force base outside Madrid.
+ The successful candidate will be required to take his / her duties during 2013/2014; the starting date will be mutually
+agreed between both parties.
+
+SUBMISSION OF APPLICATIONS:
+In order to be considered valid, applications have to be submitted to the Centre via the Permanent Representation of
+the Member State concerned to the following address (European Union Satellite Centre, Apartado de correos nº 511,
+28850 Torrejón de Ardoz, Madrid – SPAIN), and include the following documents:
+ A letter from their employer certifying that, if the candidate is selected, they will agree to the secondment
+under the conditions laid out in the above-mentioned decision of the SATCEN Board.
+ The SATCEN Application Form;
+ A detailed curriculum vitae. Candidates should preferably use the Europass Curriculum Vitae (CV) which may
+be downloaded from the CEDEFOP website (http://europass.cedefop.europa.eu), including a recent passport
+photograph;
+ A cover letter of one page maximum.</Conditions><DateStatus>2017-02-03T10:34:07.961Z</DateStatus><Description>The GIS Specialist is responsible to the Head of IT Division and works under the guidance of the Chief Technology
+Officer. Particular duties include:
+ Setting standard procedures in the production and management of GIS data;
+ Develop Geoprocessing packages;
+ Deploy and maintain public and private GIS servers;
+ Train end users.</Description><ExpireOn>2016-12-31T18:28:05.621Z</ExpireOn><Id>571d02c3cb80aa616c276e38</Id><InternalOnly>false</InternalOnly><PublishedOn>2016-04-24T17:30:43.189Z</PublishedOn><Qualifications>A level of secondary education attested by a diploma giving access to postsecondary education or equivalent
+qualification, and after having obtained the diploma, appropriate professional experience in Computer science
+in Informatics Systems of at least 3 years;
+ Excellent IT skills;
+ Experience with ESRI ArcGIS Desktop and ArcGIS Server implementation and management required;
+ Experience with Python development required;
+ Experience with OpenSource GIS products and standards desirable.</Qualifications><Reference>SatCen/SNE/04-2013</Reference><Requirements> E.U. member state nationality.
+ The possession of security clearance to at least SECRET UE or equivalent. In case the successful candidate
+is not in possession of a clearance, the SATCEN will undertake to request this clearance.</Requirements><Responsibleto>Head of IT Division</Responsibleto><Skills i:nil="true" /><Status>CLOSED</Status><Title>Geographic Information System (GIS) Specialist</Title><TypePost>SNE</TypePost><WorkUnit>IT Division</WorkUnit></Vacancy><Vacancy><Annexe i:nil="true" /><Conditions> Seconded National Experts are governed by Article 36 the SatCen Staff Regulations and the SatCen Board decision of 18
+July 2007.
+ They remain in the service of their employer throughout the period of secondment and shall continue to be paid by that
+employer.
+ Appointments are made for the duration of 6 months to 3 years, with possibility of renewal for a total period not exceeding
+4 years.
+ The Seconded National Expert will be entitled to a daily subsistence allowance of 75 €.
+ A driving licence is recommended as SatCen is on an air force base outside Madrid.
+ The successful candidate will be required to take his / her duties during 2013/2014; the starting date will be mutually
+agreed between both parties.
+SUBMISSION OF APPLICATIONS:
+In order to be considered valid, applications have to be submitted to the Centre via the Permanent Representation of the Member
+State concerned to the following address (European Union Satellite Centre, Apartado de correos nº 511, 28850 Torrejón de Ardoz,
+Madrid – SPAIN), and include the following documents:
+- A letter from their employer certifying that, if the candidate is selected, they will agree to the secondment under the
+conditions laid out in the above-mentioned decision of the SatCen Board.
+- The SatCen Application Form;
+- A detailed curriculum vitae. Candidates should preferably use the Europass Curriculum Vitae (CV) which may be
+downloaded from the CEDEFOP website (http://europass.cedefop.europa.eu), including a recent passport photograph;
+- A cover letter of one page maximum</Conditions><DateStatus>2017-02-03T10:34:20.497Z</DateStatus><Description>The Image Analyst is responsible to the Head of Operations Division and works under the guidance of a Team Leader. Particular
+duties include:
+ Performing imagery / data manipulation, processing and enhancement as required for analysis and the creation of SatCen
+products using all forms of available imagery, collateral / digital data, in compliance with the SatCen Standards and
+Procedures;
+ Undertaking detailed, accurate and timely imagery / data analysis as directed by the Team Leader making best use of all
+forms of available imagery and collateral / digital data, in compliance with the SatCen Standards and Procedures;
+ Generating detailed, accurate and concise reports about analyses performed, using the available computer systems and
+software for imagery analysis and report production, including the full range of MS Office software, Erdas and ArcGIS;
+ Performing preliminary quality checks of products when required and ensuring that the products are in accordance with
+the SatCen standards and Procedures;
+ Working under the supervision of the Team Leader regarding all assigned tasks, including preparation, planning,
+execution, reporting, production and quality control;
+ Performing additional duties as directed by the Head of Operations Division.</Description><ExpireOn>2016-12-31T18:31:15.209Z</ExpireOn><Id>571d035bcb80aa616c276e3a</Id><InternalOnly>false</InternalOnly><PublishedOn>2016-04-24T17:33:15.709Z</PublishedOn><Qualifications> A university degree in one of the following fields GIS, IMINT / GEOINT or Remote Sensing technologies (ie. Data
+processing, photogrammetry, ortho-rectification) attested by a diploma or equivalent qualification;
+ An appropriate professional experience of at least 3 years in one or more of the above mentioned fields;
+ Proven working experience related to the job description in the Security and Defence Domain (military / civilian) and / or in
+support of operations and missions;
+ Proven experience of digital imagery processing and analysis using optical and/or non-optical EO sensors;
+ A good knowledge of the military categories (STANAG 3596);
+ Working knowledge of analysis software, preferably ERDAS, and of GIS software, preferably ESRI ArcGIS;
+ Thorough knowledge of one E.U. language and a very good knowledge of English;
+ A working knowledge of French would be an advantage.</Qualifications><Reference>SatCen /SNE/03-2013</Reference><Requirements> E.U. member state nationality.
+ The possession of security clearance to at least SECRET UE or equivalent. In case the successful candidate is not in
+possession of a clearance, the SatCen will undertake to request this clearance.</Requirements><Responsibleto>Head of Operations Division</Responsibleto><Skills></Skills><Status>CLOSED</Status><Title>Imagery Analyst</Title><TypePost>SNE</TypePost><WorkUnit>Operations Division</WorkUnit></Vacancy><Vacancy><Annexe><OriginalFilename>2016-LCO-01.pdf.pdf</OriginalFilename><SavedFilename>57233193f9d71f08ac41612a.pdf</SavedFilename></Annexe><Conditions>Local staff are personnel recruited for short periods. In this case a first 6 months contract with a possible
+renewal of another 6 months contract.
+They do not have the status of international staff, and are entirely subject to the laws and regulations of
+the host State (Spain) where they are employed. The salary is foreseen as 12 months assignment. The
+gross annual salary (subject to Spanish income tax and social security contributions) will be 48,000 €.
+Posting is at EU SatCen, Torrejón de Ardoz (Madrid) Spain.</Conditions><DateStatus>2016-07-05T08:29:55.891Z</DateStatus><Description>The Project Officer (Space Surveillance and Tracking-SST) software developer provides support to the
+Space Situational Awareness (SSA) Coordinator on:
+ Implementation of SSA activities at the EU SatCen;
+ Analysis, design, development, integration and maintenance of software applications procured
+or specifically developed for SST activities at the EU SatCen;
+ Managing of tasks aimed at developing and/or integrating software ensuring the involvement
+and coordination of internal and external actors;
+ Undertaking of additional duties, appropriate to the grade, as directed by the SSA Coordinator</Description><ExpireOn>2016-05-21T21:59:28.365Z</ExpireOn><Id>57233134cb80a80f3caa2936</Id><InternalOnly>false</InternalOnly><PublishedOn>2016-04-29T10:02:28.374Z</PublishedOn><Qualifications>Post-Secondary education, preferably in technical or engineering field;
+ A minimum of 3 years of professional experience is required with at least 1 year in the field of
+software development;
+ Knowledge of the institutional framework, and decision making procedures of the European
+Union, in particular in the Space and Security domains, would be an advantage.</Qualifications><Reference>2016/LCO/01</Reference><Requirements>Nationality of an E.U. Member State;
+ Security Clearance to at least SECRET UE, or equivalent. In case the successful candidate is
+not in possession of such a clearance, the EU SatCen will request it, but no appointment will be
+fully confirmed until it has been received;
+ Stress resistant and good state of health;
+ Driving license.</Requirements><Responsibleto>Project Coordinator - SSA</Responsibleto><Skills>Good knowledge of software development life cycle and modern software engineering
+methodologies;
+ Sound development skills and experience with object oriented programming languages
+(Java/C#).
+ Good knowledge of both Unix and Microsoft environments;
+ Experience on web development, modern web user interfaces and web services;
+ Knowledge of database management techniques and SQL databases;
+ Experience on desktop application development would be an advantage.
+ Knowledge of IT security and experience for developing secure applications would be an
+advantage;
+ Knowledge of SSA-SST processing and space debris issues (e.g. orbit determination and
+analysis) would be an advantage;
+ Good drafting and communication skills, a good sense of initiative and responsibility is required
+as well as a dynamic attitude, very hands-on oriented, problem-solver and the ability to
+collaborate and work in a team;
+ An excellent command of English and knowledge of another EU language;
+ Experience in international organizations would be an advantage.</Skills><Status>CLOSED</Status><Title>Project Officer – Space Surveillance and Tracking (SST) Software Developer</Title><TypePost>Local contract</TypePost><WorkUnit>Capability Development Division</WorkUnit></Vacancy><Vacancy><Annexe i:nil="true" /><Conditions>•	Employment at EU SatCen is governed by the EU SatCen Staff Regulations;
+•	This post is graded B3/B5  of the Coordinated Organisations salary scale;
+•	Appointments are made for maximum duration of four years;
+•	Posting is at EU SatCen, Torrejón de Ardoz (Madrid) Spain;
+•	The selected candidate will be required to start as soon as possible.</Conditions><DateStatus>2016-09-26T10:37:12.041Z</DateStatus><Description>The Image Analyst is responsible to the Operations Manager. Specific duties include:
+•	Perform imagery/data manipulation, processing and enhancement as required for analysis and creation of SatCen products using all forms of available imagery, GIS and collateral data,
+•	Performing imagery/data manipulation, processing and enhancement as required (pansharpening, ortho-rectification, colour balancing, mosaicking), in consultation with IAs to meet their needs.
+•	Consulting and identifying horizontal &amp; vertical reference, gathering and integrating spatial data from internal or external sources.
+•	Provide robust, accurate and timely data using all forms of available imagery and collateral data.
+•	Undertake detailed, accurate and timely imagery analysis originated by sensors of different characteristics,
+•	Generate detailed, accurate and concise analysis reports operating ArcGIS, ERDAS and/or Blaze Terra software,
+•	Optimise the use of collateral data, in particular Open Source Information (OSINF), in relation with the generation of the reports,
+•	Complete preliminary quality checks of products when required and ensure their compliance with SatCen Standards and Procedures,
+•	Contribute to the preparation, planning, execution, reporting, production and quality control, of different types of products and services,
+•	Consult Data Requests in the database, coordinate with IAs, generate commitment and place orders with Data Providers, receive &amp; download data, update database and coordinate with Finance for payment approval.
+•	Fulfil additional duties as directed by the Head of Operations Division.</Description><ExpireOn>2016-07-01T21:59:00Z</ExpireOn><Id>572b08f1f9d71b18c8eae3e4</Id><InternalOnly>false</InternalOnly><PublishedOn>2016-05-05T08:48:49.394Z</PublishedOn><Qualifications>•	A level of secondary education attested by a diploma giving access to postsecondary education or equivalent qualification,
+•	Professional experience in IMINT and/or GEOINT analysis of at least three years,
+•	Minimum of three years’ work experience using PCI Geomatica, Erdas, LPS, ERMapper and ESRI GIS (ArcGIS) software.
+•	Proven knowledge of geographic (geo-processing) and cartographic principals (projections and datums).
+•	Proven experience related to imagery support in the security, defence, humanitarian and peacekeeping fields or similar missions,
+•	Proven experience of digital imagery processing and analysis using optical and/or non-optical sensors,
+•	Good knowledge of the NATO military categories, STANAG 3596 and MGCP Data Model.
+•	Working knowledge of  image analysis and visualization software, preferably ERDAS and/or Eternix Blaze Terra,
+•	Advanced user level or ESRI ArcGIS Desktop software and in particular of GDB management, editing environment, map layout design, geoprocessing and spatial analysis;
+•	Thorough knowledge of English; knowledge of other EU language would be an advantage</Qualifications><Reference>EU SatCen/2016/V02/IA</Reference><Requirements>•	Nationality of an E.U. Member State;
+•	Security Clearance to at least SECRET UE, or equivalent.  If the successful candidate is not in possession of said clearance, the EU SatCen will request it, but no appointment will be fully confirmed until it has been received;
+•	Driving license.</Requirements><Responsibleto>Operations Manager</Responsibleto><Skills>•	Specific experience in the use of SAR imagery analysis and processing is desirable,
+•	Previous knowledge in the field of border surveillance and migration would be advantageous,
+•	Experience in other various imagery or GIS software (e.g., ENVI, PCI Geomatica, Global Mapper, Soccet GXP, RemoteView, etc.) would be beneficial,
+•	A university degree is desirable but not essential,
+•	Strong organisational, analysis, problem-solving and communication skills,
+•	Work well under pressure,
+•	Ability to work independently within a team environment.</Skills><Status>CLOSED</Status><Title>Imagery Analyst</Title><TypePost>Temporary</TypePost><WorkUnit>Capability Development detached to Operations Division</WorkUnit></Vacancy><Vacancy><Annexe i:nil="true" /><Conditions>•	Employment at EU SatCen is governed by the EU SatCen Staff Regulations;
+•	This post is graded B3/B5 of the Coordinated Organizations salary scale ;
+•	Appointments are made for a maximum duration of four years;
+•	Posting is at EU SatCen, Torrejón de Ardoz (Madrid) Spain;
+•	The selected candidate will be required to start ASAP.</Conditions><DateStatus>2016-08-08T09:22:31.85Z</DateStatus><Description>The Project Officer (Space Surveillance and Tracking-SST) service provision support assistant contributes to the Space Situational Awareness (SSA) unit on:
+•	Assistance to operational and technical work for SSA/SST activities at the EU SatCen;
+•	Assistance of tasks aimed at developing and/or integrating operational procedures and service guides for users relevant to the provision of SST services (e.g. satellite conjunction alerts, in-orbit fragmentation, uncontrolled re-entry of space objects), ensuring the involvement and coordination of internal and external actors;
+•	Provision of first line support to the operational monitoring and management of the SST Service provision, including the handling of incidents and requests and user support.
+•	Support to the development of tools for SST service provision monitoring and reporting;
+•	Preparation of any additional material to support the promotion and usage of the provided SST services- user uptake.
+•	Undertaking of additional duties, appropriate to the grade, as directed by the SSA Coordinator.</Description><ExpireOn>2016-06-21T21:59:20.757Z</ExpireOn><Id>5731bc54f9d71a1128cd256a</Id><InternalOnly>false</InternalOnly><PublishedOn>2016-05-10T10:47:48.729Z</PublishedOn><Qualifications>•	Secondary education, preferably in technical or engineering field;
+•	A minimum of 3 years of professional experience is required with at least 1 year in the field of responsibility;
+•	Knowledge of the institutional framework, and decision making procedures of the European Union, in particular in the Space and Security domains, would be an advantage.</Qualifications><Reference>EU SatCen/2016/V01/PO</Reference><Requirements>•	Nationality of an E.U. Member State;
+•	Security Clearance to at least SECRET UE, or equivalent. In case the successful candidate is not in possession of such a clearance, the EU SatCen will request it, but no appointment will be fully confirmed until it has been received;
+•	Stress resistant and good state of health;
+•	Driving licence.</Requirements><Responsibleto>Project Coordinator -SSA</Responsibleto><Skills>•	Experience in an operations environment supporting the analysis of system and user support issues;
+•	Knowledge of SSA-SST processing and space debris issues (e.g. orbit determination and analysis);
+•	Knowledge of software development life cycle and modern software engineering methodologies would be an advantage;
+•	Development skills and experience with object oriented programming languages (C#/Java) would be an advantage.
+•	Good Knowledge of flight dynamics tools (e.g. Orekit, Visualfocus, AGI-STK), including programming expertise would be an advantage.
+•	Knowledge and experience of ITIL processes, with ITIL certification as an advantage.
+•	Experience in R&amp;D projects under the Framework Programme / H2020 of the EC would be an advantage.
+•	Good drafting and communication skills, a good sense of initiative and responsibility is required as well as a dynamic attitude, very hands-on oriented, problem-solver and the ability to collaborate and work in a team;
+•	An excellent command of English and knowledge of another EU language;
+•	Experience in international organizations would be an advantage.</Skills><Status>CLOSED</Status><Title>Project Officer – Space Surveillance and Tracking (SST) Service Provision Support Assistant</Title><TypePost>Temporary</TypePost><WorkUnit>Capability Development Division</WorkUnit></Vacancy><Vacancy><Annexe><OriginalFilename>2016 SEA DO_Finance.pdf</OriginalFilename><SavedFilename>57c58f40f9d71b08381e977d.pdf</SavedFilename></Annexe><Conditions>•	Employment at EU SatCen is governed by the EU SatCen Staff Regulations;
+•	This post is graded A1/A3  of the Coordinated Organizations salary scale;
+•	Appointments are made for a duration of four years renewable once;
+•	Posting is at EU SatCen, Torrejón de Ardoz (Madrid) Spain;
+•	The selected candidate will be required to start 1st November 2016;</Conditions><DateStatus>2017-02-03T10:34:36.597Z</DateStatus><Description>Working for and with the Copernicus Unit (and reporting to the Head of Finance), the jobholder will be responsible, in liaison with the Head of Copernicus Unit, for:
+
+•	Performing Copernicus Support to EU External Action (SEA) related tasks under the supervision of the Responsible for SEA Service;
+•	Financial management and monitoring of the Copernicus Service in support to EU External Action;
+•	Preparation and conduction of audits in front of the EU SatCen College of Auditors and other external or internal auditors or controllers. Preparation of needed documents and report;
+•	Financial reporting (on very frequent and regular basis) to both Head of Copernicus Unit and HoF;
+•	Participation in drafting and adopting yearly implementation plan financial activities (every 6 months with a 2 year perspective);
+•	Update, control financial aspects of risk management and risk reporting;
+•	Providing support to SEA Coordinator and SEA Project administrators for the drafting of the financial part of Invitation to Tenders (ITT);
+•	Financial management of contracts (industry);
+•	Inspection reporting – checks and ex-post audits to the Contractors;
+•	Supervising the Time management presence and accuracy as pillar for human resources costs;
+•	 Support technical activities as per SEA Delegation Activities;
+•	Controlling and supervising general project budget, including overall provisional budget – planning, forecasts, analysis and reporting for decision making;
+•	Compiling and providing projects financial inputs during the process of preparation to annual budget;
+•	Supervising Financial Assistant(s) within the Copernicus Unit;
+•	Performing any other duties appropriate to the grade and experience as needed for the implementation of the SEA Delegation Agreement.</Description><ExpireOn>2016-10-04T21:59:16.356Z</ExpireOn><Id>57986dcbf9d71a134c0ad249</Id><InternalOnly>false</InternalOnly><PublishedOn>2016-07-27T08:16:11.606Z</PublishedOn><Qualifications>•	University degree, preferably studies in Business administration or Financial management;
+•	A minimum of 6 years of relevant professional experience with a minimum of 4 years of relevant experience in agencies’ use and financial management of grants;
+•	Working knowledge of EU institutions, knowledge of the EU Framework Programs and Programmes such as FP7 and H2020;
+•	Experience in preparation and carry out of financial audits;
+•	Ability to organise his/her work, incl. setting priorities, meeting deadlines and following up on assignments with a minimum of direction.</Qualifications><Reference>EUSatcen/2016/V03/Copernicus SEA Desk Officer/Finance</Reference><Requirements>•	Nationality of an E.U. Member State;
+•	Security Clearance to at least SECRET UE, or equivalent. In case the successful candidate is not in possession of such a clearance, the EU SatCen will request it, but no appointment will be fully confirmed until it has been received;
+•	Stress resistant and good state of health;
+•	Driving licence.</Requirements><Responsibleto>Head of Finance</Responsibleto><Skills>•	A good knowledge of the Microsoft Office suite of software (Word, Excel – advanced user level, Power Point, Outlook) and ability to use software relevant to the financial area;
+•	A sound knowledge on the use and exploitation of the ERP MS AX Dynamics;
+•	Good written and communication skills, in particular the ability to draft clear and concise reports in English language;
+•	An excellent command of English and Spanish and knowledge of another EU language;
+•	Proven ability to work in a team under pressure.</Skills><Status>CLOSED</Status><Title>Copernicus Desk Officer SEA</Title><TypePost>Temporary</TypePost><WorkUnit>Copernicus Unit seconded to Finance Unit</WorkUnit></Vacancy><Vacancy><Annexe><OriginalFilename>2016_V05_SEA_DO_Legal.pdf</OriginalFilename><SavedFilename>57b43e69f9d71b08ec09e931.pdf</SavedFilename></Annexe><Conditions>•	Employment at EU SatCen is governed by the EU SatCen Staff Regulations;
+•	This post is graded A1/A3  of the Coordinated Organizations salary scale;
+•	Appointments are made for a duration of four years renewable once;
+•	Posting is at EU SatCen, Torrejón de Ardoz (Madrid) Spain;
+•	The selected candidate will be required to start 1st November 2016;</Conditions><DateStatus>2016-10-27T08:40:14.049Z</DateStatus><Description>Working for and with the Copernicus Unit (and reporting to the Head of Legal Services), the jobholder will be responsible, in liaison with the Head of Copernicus Unit, for:
+
+•	Performing Copernicus Support to EU External Action (SEA) related tasks under the supervision of the Responsible for SEA Service;
+•	Following-up procurement procedures starting from the identification of needs until the signature of contracts, in accordance with the Directive 2014/24/EU on public procurement, the SatCen Vade-Mecum of public procurement and the applicable SatCen financial rules;
+•	Preparation and publication of tenders;
+•	Contributing to the planning, reporting and analysis on procurement;
+•	Providing support to Responsible for SEA Service and SEA Project Administrators for the drafting of tender specifications and terms of reference as well as for the drafting of contracts;
+•	Supporting technical activities as per SEA Delegation Activities.
+•	Monitoring procurement activities, and providing advice on procedures to the Agency staff;
+•	Answering requests from tenderers and being the focal point of communications with tenderers and contractors on procurement related matters;
+•	Assisting the hierarchy in improving internal guidelines and manuals, in fostering the use of appropriate tools, and in providing internal training;
+•	Keeping tender and contract databases updated;
+•	Maintaining physical and electronic documents, shared files, correspondence and requests for clarification, according to established filing procedures and relevant rules and regulations;
+•	Any other related tasks as required by the Head of Legal Services;
+•	Performing any other duties appropriate to the grade and experience as needed for the implementation of the SEA Delegation Agreement.</Description><ExpireOn>2016-09-28T21:59:28.938Z</ExpireOn><Id>5798707ff9d71a134c0ad496</Id><InternalOnly>false</InternalOnly><PublishedOn>2016-07-27T08:27:43.71Z</PublishedOn><Qualifications>•	University degree in Business Administration, Law, or in another area relevant to the job;
+•	The applicant will be required to demonstrate that he/she has proven cumulative professional experience of at least five years in the management of large-scale tenders under EU procurement rules;
+•	Experience in analysing service contract management issues in terms of planning, contract drafting, contract execution, service level agreements, including drafting of documents presenting complex legal issues;
+•	Familiarity with the European public administration environment and depth knowledge of EU Financial Regulations and their implementation;
+•	High level of capability to organise and manage work, including the ability to cope with stress in relation to demanding tasks, heavy workload and time pressure.</Qualifications><Reference>EUSatcen/2016/V05/Copernicus_SEA_Desk_Officer/Legal</Reference><Requirements>•	Nationality of an E.U. Member State;
+•	Security Clearance to at least SECRET UE, or equivalent. In case the successful candidate is not in possession of such a clearance, the EU SatCen will request it, but no appointment will be fully confirmed until it has been received;
+•	Stress resistant and good state of health;
+•	Driving licence.</Requirements><Responsibleto>Head of Legal Services</Responsibleto><Skills>•	A good knowledge of the Microsoft Office suite of software (Word, Excel – advanced user level, Power Point, Outlook) and ability to use software relevant to the financial area;
+•	High level of initiative and self-reliance;
+•	High degree of commitment, responsibility and flexibility; constructive, positive and service oriented attitude;
+•	Excellent communication and interpersonal skills with ability to work both independently and in a team; ability to communicate efficiently with other colleagues from different cultural backgrounds and from various agencies/institutions and units (internal and external);
+•	Experience in International relations, and ability to work in a multi-national team;
+•	Strong drafting and communication skills in English both orally and in writing, at least at the level C1; knowledge of Spanish and French would be an asset.</Skills><Status>CLOSED</Status><Title>Copernicus Desk Officer SEA</Title><TypePost>Temporary</TypePost><WorkUnit>Copernicus Unit seconded to Legal Services</WorkUnit></Vacancy><Vacancy><Annexe><OriginalFilename>2016_V04_SEA_Image Analyst-ProjectOfficer.pdf</OriginalFilename><SavedFilename>57b43e94f9d71b08ec09e932.pdf</SavedFilename></Annexe><Conditions>•	Employment at EU SatCen is governed by the EU SatCen Staff Regulations;
+•	This post is graded B3/B5  of the Coordinated Organizations salary scale;
+•	Appointments are made for a duration of four years renewable once;
+•	Posting is at EU SatCen, Torrejón de Ardoz (Madrid) Spain;
+•	The selected candidate will be required to start 1st November 2016;</Conditions><DateStatus>2017-02-03T10:34:58.609Z</DateStatus><Description>The Image Analyst/Project Officer is responsible to the Operations Managers and works under the guidance of a Team Leader. Specific duties include:
+
+•	Support the Support to EU External Action (SEA) Service Operations as per SEA Delegation Agreement;
+•	Performing imagery / data manipulation, processing and enhancement as required for analysis and the creation of SEA products using all forms of available imagery, collateral / digital data, in compliance with the SEA Standards and Procedures;
+•	Undertaking detailed, accurate and timely imagery / data analysis as directed by the Team Leader making best use of all forms of available imagery and collateral / digital data, in compliance with the SEA Standards and Procedures;
+•	Generating detailed, accurate and concise reports about analyses performed, using the available computer systems and software for imagery analysis and report production, including the full range of MS Office software, Erdas and ArcGIS;
+•	Performing preliminary quality checks of products when required and ensuring that the products are in accordance with the SEA standards and Procedures;
+•	Support in the Validation process;
+•	Working under the supervision of the Team Leader regarding all assigned tasks, including preparation, planning, execution, reporting, production and quality control;
+•	Support the Team Leader in the imagery request and handling process;
+•	Guide contractor in product generation activities;
+•	Support SEA Focal Point activities;
+•	Support in the User request process;
+•	Prepare operational and technical reports;
+•	Performing additional duties as directed by the Operations Managers.</Description><ExpireOn>2016-10-16T21:59:39.104Z</ExpireOn><Id>57987207f9d71a134c0ad6e6</Id><InternalOnly>false</InternalOnly><PublishedOn>2016-07-27T08:34:15.631Z</PublishedOn><Qualifications>•	Secondary education with post-secondary studies preferably in the field of science, engineering or any other area relevant to the job;
+•	A minimum of 3 years professional experience in one or more of the following fields GIS, IMINT / GEOINT or Remote Sensing technologies;
+•	Proven working experience related to the job description in the Security and Defence Domain and / or in support of operations and missions.</Qualifications><Reference>EUSatcen/2016/V04/Copernicus_SEA_PO_IA</Reference><Requirements>•	Nationality of an E.U. Member State;
+•	Security Clearance to at least SECRET UE, or equivalent. In case the successful candidate is not in possession of such a clearance, the EU SatCen will request it, but no appointment will be fully confirmed until it has been received;
+•	Stress resistant and good state of health;
+•	Driving licence.</Requirements><Responsibleto>Head of Operations Division</Responsibleto><Skills>•	A good knowledge of Earth Observation methods applied to Crisis Response;
+•	Proven experience of imagery processing and analysis using optical and/or non-optical EO sensors;
+•	A good knowledge of the military categories (STANAG 3596);
+•	A good knowledge of the Microsoft Office suite of software (Word, Excel, Power Point, MS Project); working knowledge of ESRI GIS Suite, ERDAS and/or similar software as well as working knowledge of any GIS software;
+•	High degree of commitment, responsibility and flexibility; constructive, positive and service oriented attitude;
+•	High level of capability to organise and manage work, including the ability to cope with stress in relation to demanding tasks, heavy workload and time pressure;
+•	Excellent communication and interpersonal skills with ability to work both independently and in a team; ability to communicate efficiently with other colleagues from different cultural backgrounds and from various agencies/institutions and units (internal and external);
+•	Ability to work in a multi-national team;
+•	Strong drafting and communication skills in English both orally and in writing, at least at the level C1; knowledge of another EU language would be an asset.</Skills><Status>CLOSED</Status><Title>Copernicus Image Analyst/Project Officer SEA --- EXTENDED DEADLINE</Title><TypePost>Temporary</TypePost><WorkUnit>Copernicus Unit seconded to Operations Division</WorkUnit></Vacancy><Vacancy><Annexe><OriginalFilename>2016_V06_SEA_Project_Officer.pdf</OriginalFilename><SavedFilename>57b43eaff9d71b08ec09e933.pdf</SavedFilename></Annexe><Conditions>•	Employment at EU SatCen is governed by the EU SatCen Staff Regulations;
+•	This post is graded B3/B5  of the Coordinated Organizations salary scale;
+•	Appointments are made for a duration of four years renewable once;
+•	Posting is at EU SatCen, Torrejón de Ardoz (Madrid) Spain;
+•	The selected candidate will be required to start 1st November 2016;</Conditions><DateStatus>2017-03-09T09:53:39.55Z</DateStatus><Description>The Project Officer assists the Project Administrators and the Responsible for SEA Service in the execution of Copernicus Support to EU External Action (SEA) related tasks including:
+
+•	Support the SEA Service Coordination as per SEA Delegation Agreement;
+•	Support the technical implementation of the Service;
+•	Support the procurement process and in the technical management of contracts;
+•	Liaise with internal and external stakeholders involved in Service execution;
+•	Support the SEA Service Coordinator in the EO Data Management;
+•	Support SEA Service Evolution activities;
+•	Support SEA Focal Point and Help Desk activities;
+•	Prepare regular updates for the Project Administrators;
+•	Prepare operational and technical reports;
+•	Assist in analytical process of SEA data, performing image analysis as well as geo-spatial development (database generation, production of specific layers of interest, web mapping services development, etc.);
+•	Perform any other duties appropriate to the grade and experience as needed for the implementation of the SEA Delegation Agreement.</Description><ExpireOn>2016-10-23T21:59:25.213Z</ExpireOn><Id>57987317f9d71a134c0ad7ac</Id><InternalOnly>false</InternalOnly><PublishedOn>2016-07-27T08:38:47.904Z</PublishedOn><Qualifications>•	Secondary education with post-secondary studies preferably in the field of science, engineering, earth science or any other area relevant to the job;
+•	A minimum of 3 years professional experience in a field related to Earth Observation in support of security, defence, peacekeeping or humanitarian activities;
+•	Experience in international organizations would be an asset.</Qualifications><Reference>EUSatcen/2016/V06/Copernicus_SEA_PO</Reference><Requirements>•	Nationality of an E.U. Member State;
+•	Security Clearance to at least SECRET UE, or equivalent. In case the successful candidate is not in possession of such a clearance, the EU SatCen will request it, but no appointment will be fully confirmed until it has been received;
+•	Stress resistant and good state of health;
+•	Driving licence.</Requirements><Responsibleto>Head of Copernicus Unit</Responsibleto><Skills>•	Knowledge of Earth Observation methods applied to Crisis Response;
+•	Knowledge of the institutional framework, decision making procedures of the European Union would be an advantage, as well as experience in R&amp;D projects and in the Copernicus Programme;
+•	Experience in digital imagery processing using medium to high-resolution image data;
+•	A good knowledge of the Microsoft Office suite of software (Word, Excel, Power Point, MS Project); working knowledge of ESRI GIS Suite, ERDAS and/or similar software as well as working knowledge of any GIS software;
+•	High level of initiative and self-reliance;
+•	High degree of commitment, responsibility and flexibility; constructive, positive and service oriented attitude;
+•	High level of capability to organise and manage work, including the ability to cope with stress in relation to demanding tasks, heavy workload and time pressure;
+•	Excellent communication and interpersonal skills with ability to work both independently and in a team; ability to communicate efficiently with other colleagues from different cultural backgrounds and from various agencies/institutions and units (internal and external);
+•	Ability to work in a multi-national team;
+•	Strong drafting and communication skills in English both orally and in writing, at least at the level C1; knowledge of another EU language would be an asset.</Skills><Status>CLOSED</Status><Title>Copernicus Project Officer SEA --- EXTENDED DEADLINE</Title><TypePost>Temporary</TypePost><WorkUnit>Capability Development Division/ Copernicus Unit</WorkUnit></Vacancy><Vacancy><Annexe><OriginalFilename>2016 V07 PO-Copernicus.pdf</OriginalFilename><SavedFilename>57c92aaff9d71b08381eb60a.pdf</SavedFilename></Annexe><Conditions>•	Employment at EU SatCen is governed by the EU SatCen Staff Regulations;
+•	This post is graded B3/B5   of the Coordinated Organizations salary scale;
+•	Appointments are made for a maximum duration of four years;
+•	Posting is at EU SatCen, Torrejón de Ardoz (Madrid) Spain;
+•	The selected candidate will be required to start in the end of 2016.</Conditions><DateStatus>2017-03-09T09:54:01.493Z</DateStatus><Description>The Project Officer assists the project administrator and coordinator to write project deliverables, including drafting of presentations and project documentation:
+
+•	Supports technical and scientific work for the Copernicus projects as described in project work packages;
+•	Assists in Earth Observation (EO), performing Satellite image analysis for Copernicus projects as well as GIS development (database generation, specific layers of interest, web mapping services (WPS), etc.;
+•	Supports the implementation of pre(-)operational services within Copernicus projects;
+•	Prepares reports to the Finance section on the expenditure of the project budget;
+•	Liaises with external and internal partners involved in the Copernicus projects;
+•	Prepares regular updates of project status for the project administrator;
+•	Performs any other duties assigned by the Head of Division or by the Head of Copernicus Unit.</Description><ExpireOn>2016-10-14T21:59:32.045Z</ExpireOn><Id>57b43ff1f9d71a12249c8ec2</Id><InternalOnly>false</InternalOnly><PublishedOn>2016-08-17T10:44:01.803Z</PublishedOn><Qualifications>•	Secondary education with post-secondary studies preferably in the field of science, engineering or earth sciences;
+•	A minimum of 3 years professional experience in a field related to Earth Observation in support of security, defence, peacekeeping or humanitarian activities;
+•	Experience in international organizations would be an asset.</Qualifications><Reference>EUSatcen/2016/V07/Copernicus_PO</Reference><Requirements>•	Nationality of an EU Member State;
+•	Security Clearance to at least SECRET UE, or equivalent. In case the successful candidate is not in possession of such a clearance, the EU SatCen will request it, but no appointment will be fully confirmed until it has been received;
+•	Stress resistant and good state of health;
+•	Driving licence.</Requirements><Responsibleto>Head of Copernicus Unit</Responsibleto><Skills>•	Knowledge of Earth Observation methods applied to Crisis Response;
+•	Knowledge of the institutional framework, decision-making procedures of the European Union would be an advantage, as well as experience in R&amp;D projects under the EU Framework programme (FP);
+•	Experience in digital imagery processing using medium to high-resolution image data;
+•	A good knowledge of MS Office incl. PowerPoint and MS Project; Working knowledge of ESRI GIS Suite, ERDAS and/or similar software as well as a working knowledge of any GIS software;
+•	An excellent command of English and knowledge of another EU language;
+•	GIS software development (e.g. Python scripting) would be an asset.</Skills><Status>CLOSED</Status><Title>Project Officer - Copernicus</Title><TypePost>Temporary</TypePost><WorkUnit>Capability Development Division/ Copernicus Unit</WorkUnit></Vacancy><Vacancy><Annexe><OriginalFilename>2016 V08 SEA IT.pdf</OriginalFilename><SavedFilename>57c97731f9d71b08381ec29a.pdf</SavedFilename></Annexe><Conditions>•	Employment at EU SatCen is governed by the EU SatCen Staff Regulations;
+•	This post is graded B3/B5  of the Coordinated Organizations salary scale;
+•	Appointments are made for a duration of four years renewable once;
+•	Posting is at EU SatCen, Torrejón de Ardoz (Madrid) Spain;
+•	The selected candidate will be required to start ASAP;</Conditions><DateStatus>2016-11-17T15:41:27.208Z</DateStatus><Description>The IT Support Officer reports to the System Administrator/Manager and is mainly responsible for the smooth running of computer systems and ensuring users get maximum benefits from them. Specific tasks include:
+
+•	Provide IT support to any activity specific to the implementation of the SEA Delegation Agreement;
+•	Support in the administration and deployments of the specific IT systems necessary for the SEA Delegation Agreements (Server Administration and Deployment);
+•	Support the distribution of SEA products to Authorized Users according to SEA distribution policies;
+The tasks dedicated to the SEA Delegation Agreement will account for 50% of working time.
+•	Installing and configuring computer hardware operating systems and applications;
+•	Monitoring and maintaining computer systems and networks;
+•	Talking staff or clients through a series of actions, either face-to-face or over the telephone, to help set up systems or resolve issues;
+•	Troubleshooting system and network problems, diagnosing, and solving hardware or software faults;
+•	Replacing parts as required;
+•	Providing support, including procedural documentation and relevant reports;
+•	Supporting the rollout of new applications;
+•	Setting up new users' accounts and profiles and dealing with password issues;
+•	Prioritising and managing many open cases at one time;
+•	Rapidly establishing a good working relationship with users;
+•	Performing additional duties as directed by the Head of Division.</Description><ExpireOn>2016-10-14T21:59:32.09Z</ExpireOn><Id>57b5b837f9d71a296004aed6</Id><InternalOnly>false</InternalOnly><PublishedOn>2016-08-18T13:29:27.81Z</PublishedOn><Qualifications>•	Secondary education with post-secondary studies preferably in the field of Computer science and in Informatics Systems;
+•	A minimum of 4 years professional experience in Computer science and in Informatics Systems</Qualifications><Reference>EUSatcen/2016/V08/SEA IT/Support Officer</Reference><Requirements>•	Nationality of an E.U. Member State;
+•	Security Clearance to at least SECRET UE, or equivalent. In case the successful candidate is not in possession of such a clearance, the EU SatCen will request it, but no appointment will be fully confirmed until it has been received;
+•	Stress resistant and good state of health;
+•	Driving license.</Requirements><Responsibleto>Head of IT Division</Responsibleto><Skills>•	Knowledge of directory services as Microsoft Active Directory and Microsoft networks technologies;
+•	Experience on virtualization and clustering technologies as Microsoft Hyper-V and VMWare;
+•	Knowledge of security environments and level 7 firewalls;
+•	Knowledge of Microsoft SQL Server management, desirable;
+•	Knowledge of Microsoft SharePoint and site developing techniques, desirable;
+•	Experience on networking including routers and Internet protocols;
+•	Experience on storage technologies as NAS and SAN, desirable;
+•	Knowledge of PowerShell and other scripting languages, desirable;
+•	Experience on fixing and troubleshooting hardware and changing parts;
+•	Strong drafting and communication skills in English both orally and in writing, at least at the level C1; knowledge of another EU language would be an asset.</Skills><Status>CLOSED</Status><Title>Copernicus IT Support Officer SEA</Title><TypePost>Temporary</TypePost><WorkUnit>Copernicus Unit seconded to IT Division</WorkUnit></Vacancy><Vacancy><Annexe><OriginalFilename>2016 V09_Project Officer RTDI.pdf</OriginalFilename><SavedFilename>57d0146bf9d71b08381f03c9.pdf</SavedFilename></Annexe><Conditions>•	Employment at EU SatCen is governed by the EU SatCen Staff Regulations;
+•	This post is graded B3/B5  of the Coordinated Organizations salary scale;
+•	Appointments are made for a maximum duration of four years;
+•	Posting is at EU SatCen, Torrejón de Ardoz (Madrid) Spain;
+•	The selected candidate will be required to start ASAP.</Conditions><DateStatus>2017-01-19T15:29:37.914Z</DateStatus><Description>The Project Officer assists the Project Administrator responsible for Research, Technology Development and Innovation (RTDI) and is in charge of the following tasks/duties:
+•	To support from an organizational, technical and scientific point of view the definition and implementation of RTDI activities;
+•	To support the development of solutions for the management and exploitation of Big Geospatial Data in the Space and Security domain (including applications and services to extract knowledge and information from Earth Observation and collateral data);
+•	To support the execution of projects/initiatives (including writing of deliverables and community building activities when required) and the preparation of proposals for new projects/initiatives (including writing of technical documents and liaising with partners when required), mainly in the Horizon 2020 framework;
+•	To support the management of financial and administrative issues within RTDI projects (including preparation of financial forms and administrative reports);
+•	To perform any other duties assigned by the Project Administrator responsible for RTDI or by the Head of Capability Development Division.</Description><ExpireOn>2016-11-10T22:59:26.847Z</ExpireOn><Id>57baf530f9d71a2a84cbb352</Id><InternalOnly>false</InternalOnly><PublishedOn>2016-08-22T12:50:56.314Z</PublishedOn><Qualifications>•	Secondary education in a relevant field such as Physical Sciences, Social Sciences or Engineering attested by a diploma or equivalent qualification;
+•	A minimum of 3 years relevant professional experience in the Earth Observation and Big Data fields;
+•	Experience in R&amp;D projects (preferably in the Horizon 2020 framework).</Qualifications><Reference>EUSatCen/2016/V09/Project Officer RTDI</Reference><Requirements>•	Nationality of an EU Member State;
+•	Security Clearance to at least SECRET UE, or equivalent. In case the successful candidate is not in possession of such a clearance, the EU SatCen will request it, but no appointment will be fully confirmed until it has been received;
+•	Stress resistant and good state of health;
+•	Driving licence.</Requirements><Responsibleto>Head of Capability Development Division (Responsible for RTDI)</Responsibleto><Skills>•	Knowledge of Earth Observation and GIS principles and methodologies;
+•	Knowledge of Big Data, Data Science, Virtual Research Environments and Cloud Computing paradigms and technologies;
+•	Knowledge of Earth Observation -based services and applications in the Space and Security domain;
+•	Knowledge of managerial, financial and administrative aspects of R&amp;D projects in the Horizon 2020 framework;
+•	Excellent command of English and knowledge of another EU language;
+•	Excellent drafting, reporting and communication skills;
+•	Knowledge of European Space Programmes such as Copernicus and Galileo would be an asset;
+•	Knowledge of initiatives led by international organisations such as the European Space Agency and the Group on Earth Observations would be an asset;
+•	Knowledge of the institutional framework and decision-making procedures of the EU (preferably in the Common Foreign and Security Policy field) would be an asset.</Skills><Status>CLOSED</Status><Title>Project Officer RTDI [Big Data] --- EXTENDED DEADLINE</Title><TypePost>Temporary</TypePost><WorkUnit>Capability Development Division (RTDI Team)</WorkUnit></Vacancy><Vacancy><Annexe><OriginalFilename>2016 V10 Copernicus IT Support Frontex Republication.pdf</OriginalFilename><SavedFilename>58481cb4f9d71b354cabe162.pdf</SavedFilename></Annexe><Conditions>•	Employment at EU SatCen is governed by the EU SatCen Staff Regulations;
+•	This post is graded B3/B5  of the Coordinated Organizations salary scale;
+•	Appointments are made for a duration of four years renewable once;
+•	Posting is at EU SatCen, Torrejón de Ardoz (Madrid) Spain;
+•	The selected candidate will be required to start ASAP;</Conditions><DateStatus>2017-02-08T12:53:32.509Z</DateStatus><Description>The IT Support Officer reports to the System Administrator/Manager and is mainly responsible for the smooth running of computer systems and ensuring users get maximum benefits from them. Specific tasks include:
+•	Provide IT support to any activity specific to the Frontex Support Team;
+•	Support in the administration and deployments of the specific IT systems necessary for the Frontex Support Team;
+•	Support the distribution of Frontex Support Team products to Authorized Users according to SATCEN distribution policies;
+•	Installing and configuring computer hardware operating systems and applications;
+•	Monitoring and maintaining computer systems and networks;
+•	Talking staff or clients through a series of actions, either face-to-face or over the telephone, to help set up systems or resolve issues;
+•	Troubleshooting system and network problems, diagnosing, and solving hardware or software faults;
+•	Replacing parts as required;
+•	Providing support, including procedural documentation and relevant reports;
+•	Supporting the rollout of new applications;
+•	Setting up new users' accounts and profiles and dealing with password issues;
+•	Prioritising and managing many open cases at one time;
+•	Rapidly establishing a good working relationship with users;
+•	Performing additional duties as directed by the Head of Division</Description><ExpireOn>2017-01-18T22:59:08.574Z</ExpireOn><Id>57c6d6c4f9d71913b0b756ed</Id><InternalOnly>false</InternalOnly><PublishedOn>2016-08-31T13:08:20.512Z</PublishedOn><Qualifications>•	Secondary education with post-secondary studies preferably in the field of Computer science and in Informatics Systems;
+•	A minimum of 4 years professional experience in Computer science and in Informatics Systems.</Qualifications><Reference>EUSatcen/2016 V10 IT Support Officer - Frontex - REPUBLICATION</Reference><Requirements>•	Nationality of an E.U. Member State;
+•	Security Clearance to at least SECRET UE, or equivalent. In case the successful candidate is not in possession of such a clearance, the EU SatCen will request it, but no appointment will be fully confirmed until it has been received;
+•	Stress resistant and good state of health;
+•	Driving license.</Requirements><Responsibleto>Head of IT Division</Responsibleto><Skills>•	Knowledge of directory services as Microsoft Active Directory and Microsoft networks technologies;
+•	Experience on virtualization and clustering technologies as Microsoft Hyper-V and VMWare;
+•	Knowledge of security environments and level 7 firewalls;
+•	Knowledge of Microsoft SQL Server management, desirable;
+•	Knowledge of Microsoft SharePoint and site developing techniques, desirable;
+•	Experience on networking including routers and Internet protocols;
+•	Experience on storage technologies as NAS and SAN, desirable;
+•	Knowledge of PowerShell and other scripting languages, desirable;
+•	Experience on fixing and troubleshooting hardware and changing parts;
+•	Desirable experience in designing, developing and testing based GIS applications and services;
+•	Desirable knowledge on installation/troubleshooting in Blaze Terra and ArcGIS;
+•	Desirable knowledge of Esri ArcGIS product suite and ArcGIS Server service design and management;
+•	An advantage, knowledge of EUROSUR network;
+•	Strong drafting and communication skills in English both orally and in writing, at least at the level C1; knowledge of another EU language would be an asset.</Skills><Status>ONGOING</Status><Title>Copernicus IT Support Officer of Frontex Support Team</Title><TypePost>Temporary</TypePost><WorkUnit>Capability Development seconded to IT Division</WorkUnit></Vacancy><Vacancy><Annexe i:nil="true" /><Conditions>•	Monthly subsistence allowance: 1000 €
+•	Annual Leave: 2.5 days per month
+•	Health Insurance: Proof of cover must be provided for by “Trainee”
+•	Duration: Initial 6-month assignment, renewable once with maximum total duration of 12 months.</Conditions><DateStatus>2017-03-22T14:40:28.226Z</DateStatus><Description>Space Situational Awareness (SSA) refers to the knowledge of the space environment, including location and function of space objects and space weather phenomena. It is composed by 3 domains:
+•	Space Surveillance and Tracking (SST) of man-made objects;
+•	Space WEather (SWE) monitoring and forecast;
+•	Near-Earth Objects (NEO) monitoring (only natural space objects).
+
+The EU SatCen through co-financed EC H2020 R&amp;D&amp;I actions is contributing to the current European SSA/SST activities by:
+•	contributing to the implementation of the EU SST Support Framework cooperating with the SST Consortium on the provision of SST services.
+•	providing recommendations on SSA governance and data policy issues;
+•	facilitating the technical collaboration among SST stakeholders;
+
+The EU SatCen is constantly seeking for spin-in between R&amp;D&amp;I activities and its operational work. As a concrete example, satellite imagery acquisition process has been enhanced by the provision of timely information of satellite over-flight opportunities through a dedicated software application benefiting from expertise acquired on SSA/SST.
+
+Communication and Dissemination actions towards different stakeholders contribute significantly to the success of R&amp;D&amp;I activities. Related to SST, these actions are supported, among others, with the production of multimedia material and effective visualisation hardware and software tools.
+
+Profile 1:
+To support the software development work of the SSA unit by contributing to enhancements of an over-flight satellite tool, 2D/3D web visualisation tools.
+
+Profile 2:
+Support the work of the SSA unit in the field of flight dynamics, mainly focused on SST services provision (e.g. conjunction warning and analysis, re-entry prediction and fragmentation detection and characterisation).</Description><ExpireOn>2016-10-17T21:59:45.391Z</ExpireOn><Id>57d949a9f9d71a15d4c2a155</Id><InternalOnly>false</InternalOnly><PublishedOn>2016-09-14T12:59:21.63Z</PublishedOn><Qualifications>Recent university graduate with a degree in a scientific or technical field; a strong background in engineering, mathematics, physics or equivalent is desired.</Qualifications><Reference>EUSatcen/2016_TR003/Traineeship/SSA</Reference><Requirements>•	Nationality of an E.U. Member State;
+•	Security Clearance to at least SECRET UE, or equivalent. In case the successful candidate is not in possession of such a clearance, the EU SatCen will request it;
+•	Driving license, an advantage as SatCen is difficult to reach by public transport.</Requirements><Responsibleto>Head of SSA Unit</Responsibleto><Skills>Profile 1:
+•	Familiarity with modern programing methodologies:
+•	Development skills and experience with object oriented programming languages (Java/C#);
+•	Understanding of both Unix and Microsoft environments;
+•	Understanding of web development (modern web user interfaces and web services, Javascript, HTML5 and WebGL);
+•	Understanding of database management techniques and SQL databases.
+
+Profile 2:
+•	Knowledge of flight dynamics / orbital mechanics;
+•	Experience with flight dynamics software libraries and tools (e.g. Orekit, focusSuite, STK);
+•	SW development skills and experience with programming languages (e.g. Java).</Skills><Status>CLOSED</Status><Title>Trainee for Capability Development Division – SSA Unit</Title><TypePost>Trainee</TypePost><WorkUnit>Capability Development Division – SSA</WorkUnit></Vacancy><Vacancy><Annexe><OriginalFilename>2016 V14 Secretary to Head of IT.pdf</OriginalFilename><SavedFilename>584158bdf9d71b354cab8e7d.pdf</SavedFilename></Annexe><Conditions>•	Employment at EU SatCen is governed by the EU SatCen Staff Regulations;
+•	This post is graded  B3/B5   of the Coordinated Organizations salary scale;
+•	Appointments are made an initial contract for four years, with a possibility of renewal;
+•	Posting is at EU SatCen, Torrejón de Ardoz (Madrid) Spain;</Conditions><DateStatus>2017-02-16T08:50:05.965Z</DateStatus><Description>The Secretary to the Head of IT Division reports to the Head of IT Division and is mainly responsible for assisting the Head of Division and System Managers in sourcing new IT products and services with a view to guarantee best value for money. Responsibilities will include but not limited:
+
+•	Collecting business requirements from System Managers;
+•	Assisting in redacting specifications for call for tenders;
+•	Day-to-day ordering of new hardware and software;
+•	Assisting finance unit with invoice queries;
+•	Supplier liaison to ensure information flows and critical dates achieved;
+•	Monitoring outstanding orders and updating business requestors on order status;
+•	Managing official missions of IT division staff (plane tickets, claims etc.);
+•	Performing additional duties as directed by the Head of Division.</Description><ExpireOn>2017-01-13T22:59:15.105Z</ExpireOn><Id>582dc0f7f9d71c368853dfa1</Id><InternalOnly>false</InternalOnly><PublishedOn>2016-11-17T14:38:47.823Z</PublishedOn><Qualifications>•	Secondary education with post-secondary studies preferably in the field of Business Administration or Computer Science,
+•	Previous experience in purchasing professional IT equipment (at least 2 years).</Qualifications><Reference>EUSatcen/ 2016 / V014 /Secretary to Head of IT</Reference><Requirements>•	Nationality of an E.U. Member State;
+•	Security Clearance to at least SECRET UE, or equivalent. In case the successful candidate is not in possession of such a clearance, the EU SatCen will request it, but no appointment will be fully confirmed until it has been received;
+•	Stress resistant and good state of health;
+•	Driving licence.</Requirements><Responsibleto>Head of IT Division</Responsibleto><Skills>•	Demonstrated profound understanding of the different elements of a professional IT infrastructure (Storage, Server, Backup, Cloud etc.);
+•	Demonstrated commercial negotiation skills;
+•	Knowledge of Business Intelligence concepts, desirable;
+•	Knowledge of Microsoft SharePoint, desirable;
+•	Knowledge of Geospatial and Image processing concepts, desirable
+•	Strong drafting and communication skills in English both orally and in writing, at least at the level C1; knowledge of another EU language would be an asset.</Skills><Status>CLOSED</Status><Title>Secretary to Head of IT</Title><TypePost>Permanent</TypePost><WorkUnit>IT Division</WorkUnit></Vacancy><Vacancy><Annexe><OriginalFilename>RTDI004.pdf</OriginalFilename><SavedFilename>58404298f9d71b354cab7e6c.pdf</SavedFilename></Annexe><Conditions>Initial 3 month assignment with a possibility of extension</Conditions><DateStatus>2017-03-22T14:27:46.763Z</DateStatus><Description>The implementation of RTDI (Research, Technology Development and Innovation) initiatives at SatCen aims at evaluating new solutions with regard to the whole data lifecycle on transversal issues such as Big Data and Cloud Computing as well as at fostering cooperation with key international organisations in the Space field such as ESA and GEO.
+
+Expected assignment
+To support the work of the RTDI unit by contributing to the development of:
+•	change detection and classification tools (mainly on Sentinel data);
+•	new processes and systems to extract knowledge and information from geospatial data.</Description><ExpireOn>2017-01-10T22:59:00Z</ExpireOn><Id>58404006f9d71a18d4096619</Id><InternalOnly>false</InternalOnly><PublishedOn>2016-12-01T15:21:42.554Z</PublishedOn><Qualifications>•	Graduate in Physical Sciences, Engineering or other relevant fields;
+•	Knowledge of satellite image processing (e.g. Python) and/or Big Data technologies programming (e.g. Apache Spark) and/or GIS web app development (e.g. JavaScript)</Qualifications><Reference>EUSatcen/2016_TR004/Traineeship/Capability Development Division</Reference><Requirements i:nil="true" /><Responsibleto>Project Administrator responsible for RTDI</Responsibleto><Skills i:nil="true" /><Status>CLOSED</Status><Title>Trainee RTDI [EO, Big Data]</Title><TypePost>Trainee</TypePost><WorkUnit>Capability Development Division</WorkUnit></Vacancy><Vacancy><Annexe><OriginalFilename>2017 V01 Financial Assistant Ext.pdf</OriginalFilename><SavedFilename>5890a957f9d71c0888492595.pdf</SavedFilename></Annexe><Conditions>•	Employment at EU SatCen is governed by the EU SatCen Staff Regulations;
+•	This post is graded B3-B5  of the Coordinated Organizations salary scale;
+•	Appointments are made for a maximum duration of four years;
+•	Posting is at EU SatCen, Torrejón de Ardoz (Madrid) Spain;
+•	The selected candidate will be required to start ASAP.</Conditions><DateStatus>2017-03-14T22:59:07.66Z</DateStatus><Description>•	Control and accounting of expenditure and income in the day to day running of the section;
+•	Preparation of commitments and related payments, as well as relevant documentation;
+•	Maintenance and development of Fixed Assets Data Base. Recording and reporting on Fixed Assets;
+•	Maintenance of budgets database (expenditure/commitments, salary scales, allowances, etc.);
+•	Allocation of all expenditure to accounts. Preparation of general ledgers (Operational &amp; Pensions budgets);
+•	Drafting and interpretation of reports on budget execution status;
+•	Drafting and interpretation of financial statements;
+•	Monitoring both technical and financial continuous compliance with International Public Sector Accounting Standards (IPSAS), as well as consistent reporting;
+•	Development of new processes in the SatCen Financial System (Microsoft Dynamics AX), in particular its maintenance, exploitation, reporting and continuous programing in adaptation to changing needs. Liaise with Technical Division as the main point of contact for these purposes. Responsible for adaptation and further development of potential new systems;
+•	Maintenance, exploitation and enforcement of the Cost Accounting Subsystem: accounting, billing, reporting, traceability and auditing;
+•	Drafting and customization of reports of EU Projects;
+•	Maintenance and exploitation of EU Projects Subsystem;
+•	Financial supervision and control of agreements and contracts, including all reporting and auditing related activities;
+•	Administrative and financial support to annual audits incl. projects audits;
+•	Treasury forecast for investments purposes;
+•	Management of the Pensions Fund, its investments, as well as the Treasury Management Plan.
+•	Performing additional duties as directed by the Head of Finance Unit</Description><ExpireOn>2017-03-14T22:59:07.66Z</ExpireOn><Id>587c94ebf9d71a0bbc54b9d7</Id><InternalOnly>false</InternalOnly><PublishedOn>2017-01-16T09:39:55.095Z</PublishedOn><Qualifications>•	A level of secondary education attested by a diploma giving access to postsecondary education or equivalent qualification, and after having obtained the diploma, appropriate professional experience in budgeting, accounting of at least 5 years;
+•	A secondary education diploma on Economics, Business and Administration or other financial and/or economics degree would be an asset.</Qualifications><Reference>EUSatcen/2017/V01</Reference><Requirements>•	Nationality of an E.U. Member State;
+•	Security Clearance to at least SECRET UE, or equivalent. In case the successful candidate is not in possession of such a clearance, the EU SatCen will request it, but no appointment will be fully confirmed until it has been received;
+•	Stress resistant and good state of health;
+•	Driving licence</Requirements><Responsibleto>Head of Finance</Responsibleto><Skills>•	Sound knowledge and experience on financial software (Microsoft Dynamics AX): development, customization and data import. Appropriate professional experience in its practice of at least 5 years;
+•	Certificate on “Microsoft Dynamics AX Financials” would be an asset;
+•	Experience on financial adaptation to “International Public Sector Accounting Standards (IPSAS)”, desirable;
+•	Good writing and communication skills;
+•	A well-versed knowledge of PC packages like MS Office;
+•	Good command of English and knowledge of another EU language.</Skills><Status>ONGOING</Status><Title>Financial Assistant</Title><TypePost>Temporary</TypePost><WorkUnit>Finance Unit</WorkUnit></Vacancy><Vacancy><Annexe><OriginalFilename>2017 V03 RTDI PO.pdf</OriginalFilename><SavedFilename>5894790ff9d71c088849847a.pdf</SavedFilename></Annexe><Conditions>•	Employment at EU SatCen is governed by the EU SatCen Staff Regulations;
+•	This post is graded B3/B5  of the Coordinated Organizations salary scale;
+•	Appointments are made for a maximum duration of four years;
+•	Posting is at EU SatCen, Torrejón de Ardoz (Madrid) Spain;
+•	The selected candidate will be required to start ASAP.</Conditions><DateStatus>2017-03-17T22:59:00Z</DateStatus><Description>The RTDI Project Officer assists the Project Administrator responsible for Research, Technology Development and Innovation (RTDI) and is in charge of the following tasks/duties:
+•	To support from an organizational, technical and scientific point of view the implementation of RTDI activities (mainly in the framework of Horizon 2020 projects related to Earth Observation and Big Data);
+•	To support the execution of projects and initiatives (including writing of deliverables and community building activities when required);
+•	To support the development of technical solutions for the management and exploitation of Big Geospatial Data in the Space and Security domain (e.g. tools to extract knowledge and information from EO and collateral data);
+•	To support the preparation of proposals for new projects and initiatives (including writing of technical documents and liaising with partners when required);
+•	To support the management of projects’ financial and administrative issues (including preparation of financial forms and administrative reports);
+•	To perform any other duties assigned by the Responsible for RTDI or by the Head of Capability Development Division.</Description><ExpireOn>2017-03-17T22:59:00Z</ExpireOn><Id>5880dc2bf9d7192bdcaf642b</Id><InternalOnly>false</InternalOnly><PublishedOn>2017-01-19T15:32:59.832Z</PublishedOn><Qualifications>•	Secondary education in a relevant field such as Physical Sciences, Computer Science or Engineering attested by a diploma or equivalent qualification;
+•	A minimum of 5 years relevant professional experience in the Earth Observation and Big Data fields;
+•	Experience in R&amp;D projects (preferably in the Horizon 2020 framework).</Qualifications><Reference>SatCen 2017 V03 RTDI</Reference><Requirements>•	Nationality of an EU Member State;
+•	Security Clearance to at least SECRET UE, or equivalent. In case the successful candidate is not in possession of such a clearance, the EU SatCen will request it, but no appointment will be fully confirmed until it has been received;
+•	Stress resistant and good state of health;
+•	Driving licence.</Requirements><Responsibleto>Head of CapDev</Responsibleto><Skills>•	Knowledge of Earth Observation (EO) and GIS principles and methodologies;
+•	Knowledge of Big Data, Cloud Computing and Virtual Research Environments paradigms and technologies;
+•	Knowledge of satellite image processing, Big Data technologies programming or GIS web app development;
+•	Knowledge of managerial, financial and administrative aspects of R&amp;D projects in the Horizon 2020 framework;
+•	Excellent command of English and knowledge of another EU language;
+•	Excellent drafting, reporting and communication skills;
+•	Knowledge of EO-based applications and services in the Space and Security domain would be an asset;
+•	Knowledge of European Space Programmes such as Copernicus and Galileo would be an asset;
+•	Knowledge of initiatives led by international organisations such as ESA and GEO would be an asset;
+•	Knowledge of the institutional framework of the EU (preferably in the CFSP field) would be an asset.</Skills><Status>ONGOING</Status><Title>Project Officer – Earth Observation and Big Data</Title><TypePost>Temporary</TypePost><WorkUnit>Capability Development</WorkUnit></Vacancy><Vacancy><Annexe><OriginalFilename>2017 V02 PO Fin Admin EXT.pdf</OriginalFilename><SavedFilename>589adae1f9d71c088849db1c.pdf</SavedFilename></Annexe><Conditions>•	Employment at EU SatCen is governed by the EU SatCen Staff Regulations;
+•	This post is graded B3/B6   of the Coordinated Organizations salary scale;
+•	Appointments are made for a duration of four years renewable once;
+•	Posting is at EU SatCen, Torrejón de Ardoz (Madrid) Spain;
+•	The selected candidate will be required to start ASAP</Conditions><DateStatus>2017-03-21T22:59:47.797Z</DateStatus><Description>The Project Officer - Finance and Administration is responsible to provide support in the financial and administrative management of projects/agreements as well as office management, namely:
+
+•	Supports the preparation and follow-up of projects and agreements financial commitments, procurements, payment requests, including and verifying documentation in coordination with SatCen Finance Unit and Legal Services;
+•	Provides the Finance Unit with all the necessary documents related to technical and administrative management of projects/agreements including for the audits and supports auditing process;
+•	Supports projects/agreements report preparation; prepares and updates a variety of periodic and special narratives, databases and statistical reports to internal and external stakeholders;
+•	Supports the preparation and negotiation of new projects/agreements, incl. the compiling of data, projecting expenditures in liaison with the Finance Unit and recommending service levels and enhancements;
+•	Organizes meetings, workshops and other networking activities in the context of projects functioning;
+•	Contributes to the overall enhancement of financial and administrative management procedures and practices;
+•	Performs routine administrative activities (incl. meetings, missions and visits preparation) in coordination with the Secretary of the Capability Development Division.
+•	Performs any other duties appropriate to the grade and experience as assigned by the Head of Copernicus Unit.</Description><ExpireOn>2017-03-21T22:59:47.797Z</ExpireOn><Id>58860511f9d71a3a0809d8d3</Id><InternalOnly>false</InternalOnly><PublishedOn>2017-01-23T13:28:50.09Z</PublishedOn><Qualifications>•	Secondary level education, preferably studies in Business administration and/or Financial management;
+•	A minimum of 5 years of relevant professional experience is required;
+•	Working knowledge of EU institutions, knowledge of the EU Framework Programmmes and Programmes such as FP7 and H2020; knowledge of EU Financial Rules;
+•	Experience in support of financial and administrative management of projects and preparation of financial audits preferably in the EU Commission context;
+•	Ability to organise his/her work, incl. setting priorities, meeting deadlines and following up on assignments with a minimum of direction.</Qualifications><Reference>EUSatcen/2017/V02</Reference><Requirements>•	Nationality of an E.U. Member State;
+•	Security Clearance to at least SECRET UE, or equivalent. In case the successful candidate is not in possession of such a clearance, the EU SatCen will request it, but no appointment will be fully confirmed until it has been received;
+•	Stress resistant and good state of health;
+•	Driving licence.</Requirements><Responsibleto>Head of Copernicus Unit</Responsibleto><Skills>•	A good knowledge of the Microsoft Office suite of software (Word, Excel – advanced user level, Power Point, Outlook) and ability to use software relevant to the financial area;
+•	Good written and communication skills, in particular the ability to draft clear and concise reports in English language;
+•	An excellent command of English and knowledge of another EU language. Spanish would be an asset;
+•	Proven ability to work in a team under pressure.</Skills><Status>ONGOING</Status><Title>Project Officer - Finance and Administration</Title><TypePost>Temporary</TypePost><WorkUnit>Capability Development Division</WorkUnit></Vacancy><Vacancy><Annexe><OriginalFilename>2017 SatCen V05 PO SWD Ext.pdf</OriginalFilename><SavedFilename>58bd413df9d71b08a469530e.pdf</SavedFilename></Annexe><Conditions>•	Employment at EU SatCen is governed by the EU SatCen Staff Regulations;
+•	This post is graded B3/B5  of the Coordinated Organisations salary scale;
+•	Appointments are made for a maximum duration of four years;
+•	Posting is at EU SatCen, Torrejón de Ardoz (Madrid) Spain;</Conditions><DateStatus>2017-03-06T11:00:40.357Z</DateStatus><Description>The Project Officer (Space Surveillance and Tracking-SST) software developer provides support to the Head of SSA (Space Situational Awareness) Unit:
+•	Implementation of SSA activities at the EU SatCen;
+•	Analysis, design, development, integration, testing  and maintenance of software applications procured or specifically developed for SST activities at the EU SatCen;
+•	Managing of tasks aimed at developing and/or integrating software ensuring the involvement and coordination of internal and external actors;
+•	Undertaking of additional duties, appropriate to the grade, as directed by the SSA Coordinator.</Description><ExpireOn>2017-04-17T21:59:58.379Z</ExpireOn><Id>58a6e7a9f9d7191c5073c416</Id><InternalOnly>false</InternalOnly><PublishedOn>2017-02-17T12:08:09.266Z</PublishedOn><Qualifications>•	Secondary education, preferably in technical or engineering field;
+•	A minimum of 3 years of professional experience is required with at least 1 year in the field of software development;
+•	Knowledge of the institutional framework, and decision making procedures of the European Union, in particular in the Space and Security domains, would be an advantage.</Qualifications><Reference>2017/SatCen/v05/SST/PO-SWD</Reference><Requirements>•	Nationality of an E.U. Member State;
+•	Security Clearance to at least SECRET UE, or equivalent. In case the successful candidate is not in possession of such a clearance, the EU SatCen will request it, but no appointment will be fully confirmed until it has been received;
+•	Stress resistant and good state of health;
+•	Driving license.</Requirements><Responsibleto>Head of SSA Unit</Responsibleto><Skills>•	Good knowledge of software development life cycle and modern software engineering methodologies;
+•	Sound development skills and experience with object oriented programming languages (C#/.NET mandatory, Java an advantage).
+•	Good knowledge of both Microsoft and Unix environments;
+•	Experience on web development, modern web user interfaces and web services;
+•	Knowledge of database management techniques, ORM frameworks and SQL databases;
+•	Experience on desktop application development would be an advantage.
+•	Knowledge of IT security and experience for developing secure applications would be an advantage;
+•	Knowledge of SSA-SST processing and  space debris issues (e.g. orbit determination and analysis) would be an advantage;
+•	Good drafting and communication skills, a good sense of initiative and responsibility is required as well as a dynamic attitude, very hands-on oriented, problem-solver and the ability to collaborate and work in a team;
+•	An excellent command of English and knowledge of another EU language;
+•	Experience in international organizations would be an advantage.</Skills><Status>OPEN</Status><Title>Project Officer – Space Surveillance and Tracking (SST) Software Developer</Title><TypePost>Temporary</TypePost><WorkUnit>Capability Development</WorkUnit></Vacancy><Vacancy><Annexe><OriginalFilename>2017 V07 Admin_Procurement Assistant.pdf</OriginalFilename><SavedFilename>58d2906ef9d71b08a46b955a.pdf</SavedFilename></Annexe><Conditions>•	Employment at EU SatCen is governed by the EU SatCen Staff Regulations;
+•	This post is graded B3/B5   of the Coordinated Organizations salary scale;
+•	Appointments are made for a duration of four years renewable once;
+•	Posting is at EU SatCen, Torrejón de Ardoz (Madrid) Spain;
+•	The selected candidate will be required to start as soon as possible;</Conditions><DateStatus>2017-03-22T14:55:56.204Z</DateStatus><Description>Working for and within the Legal Services, the Administrative &amp; Procurement Assistant is mainly responsible for assisting the Procurement Officer. Responsibilities will include, but not be limited to:
+
+•	Following-up procurement procedures starting from the identification of needs until the signature of contracts, in accordance with the applicable  procurement and financial rules;
+•	Supporting the Procurement Officer in the drafting and publication of tender documents (tender specifications, contract notices, invitations to tender and draft contracts);
+•	Monitoring procurement activities, including keeping tenders log updated, and providing advice and training on procurement procedures to staff;
+•	Preparing responses to tenderers’ requests;
+•	Assisting with the improvement of internal guidelines and manuals,  and fostering the use of appropriate tools; Contributing to the planning, reporting and analysis on procurement;
+•	Preparing briefings and other documents in the field of procurement;
+•	Supervising and verifying legal and financial commitments in connection with projects under your responsibility, in full compliance with current procurement and financial rules;
+•	Maintaining filing systems, archives, databases and mailing lists updated; handling incoming mail and material; Assisting with the preparation of funding applications and reports;
+•	Any other related administrative tasks as required by the Head of Legal Services or Head of Administration.</Description><ExpireOn>2017-05-03T21:59:59.216Z</ExpireOn><Id>58b95d11f9d71a2c5c4d3800</Id><InternalOnly>false</InternalOnly><PublishedOn>2017-03-03T12:09:53.601Z</PublishedOn><Qualifications>•	Secondary education with post-secondary studies preferably in the field of Business Administration, Law, or in another area relevant to the job;
+•	The applicant will be required to demonstrate that he/she has proven cumulative professional experience of at least three years in large-scale tenders under EU procurement rules;
+•	Familiarity with the European public administration environment and in-depth knowledge of EU Procurement Regulations;
+•	Good level of capability to organise and manage work, including the ability to cope with stress in relation to demanding tasks, heavy workload and time pressure.</Qualifications><Reference>EUSatcen/2017/V07</Reference><Requirements>•	Nationality of an EU Member State;
+•	Security Clearance to at least SECRET UE, or equivalent. In case the successful candidate is not in possession of such a clearance, the EU SatCen will request it, but no appointment will be fully confirmed until it has been received;
+•	Stress resistant and good state of health;
+•	Driving licence.</Requirements><Responsibleto>Head of Legal Services</Responsibleto><Skills>•	A good knowledge of the Microsoft Office suite of software (Word, Excel – advanced user level, Power Point, Outlook) and ability to use software relevant to the financial area;
+•	Good level of initiative and self-reliance;
+•	Good communication and interpersonal skills with ability to work both independently and in a team; ability to communicate efficiently with other colleagues from different cultural backgrounds and from various agencies/institutions and units (internal and external);
+•	Experience in International relations, and ability to work in a multi-national team;
+•	Good drafting skills in English both orally and in writing, at least at the level C1; knowledge of Spanish and French would be an asset.</Skills><Status>OPEN</Status><Title>Administrative &amp; Procurement Assistant</Title><TypePost>Temporary</TypePost><WorkUnit>Legal Services</WorkUnit></Vacancy><Vacancy><Annexe><OriginalFilename>2017 TR001 Traineeship SSA.pdf</OriginalFilename><SavedFilename>58d8e8bcf9d71b08a46bf273.pdf</SavedFilename></Annexe><Conditions>•	Monthly subsistence allowance: 1000 €
+•	Annual Leave: 2.5 days per month
+•	Health Insurance: Proof of cover must be provided for by “Trainee”
+•	Duration: Initial 6-month assignment, renewable once with maximum total duration of 12 months.</Conditions><DateStatus>2017-03-27T10:26:39.52Z</DateStatus><Description>Space Situational Awareness (SSA) refers to the knowledge of the space environment, including location and function of space objects and space weather phenomena. It is composed by 3 domains:
+•	Space Surveillance and Tracking (SST) of man-made objects;
+•	Space WEather (SWE) monitoring and forecast;
+•	Near-Earth Objects (NEO) monitoring (only natural space objects).
+
+The EU SatCen through co-financed EC H2020 R&amp;D&amp;I actions is contributing to the current European SSA/SST activities by:
+•	contributing to the implementation of the EU SST Support Framework cooperating with the SST Consortium on the provision of SST services.
+
+•	providing recommendations on SSA governance and data policy issues;
+•	facilitating the technical collaboration among SST stakeholders;
+
+The EU SatCen is constantly seeking for spin-in between R&amp;D&amp;I activities and its operational work. As a concrete example, satellite imagery acquisition process has been enhanced by the provision of timely information of satellite over-flight opportunities through a dedicated software application benefiting from expertise acquired on SSA/SST.
+
+Communication and Dissemination actions towards different stakeholders contribute significantly to the success of R&amp;D&amp;I activities. Related to SST, these actions are supported, among others, with the production of multimedia material and effective visualisation hardware and software tools.
+
+Profile 1:
+To support the software development work of the SSA unit by contributing to enhancements of an over-flight satellite tool, 2D/3D web visualisation tools.
+
+Profile 2:
+Support the work of the SSA unit in the field of flight dynamics, mainly focused on SST services provision (e.g. conjunction warning and analysis, re-entry prediction and fragmentation detection and characterisation).</Description><ExpireOn>2017-04-30T21:59:36.712Z</ExpireOn><Id>58d8e897f9d71c0144cfe117</Id><InternalOnly>false</InternalOnly><PublishedOn>2017-03-27T10:25:27.896Z</PublishedOn><Qualifications>Recent university graduate with a degree in a scientific or technical field; a strong background in engineering, mathematics, physics or equivalent is desired;</Qualifications><Reference>EUSatcen/2017_TR001 - Traineeship Opportunity</Reference><Requirements>•	Nationality of an E.U. Member State;
+•	Security Clearance to at least SECRET UE, or equivalent. In case the successful candidate is not in possession of such a clearance, the EU SatCen will request it;
+•	Driving license, an advantage as SatCen is difficult to reach by public transport.</Requirements><Responsibleto>Head of SSA Unit</Responsibleto><Skills>Profile 1:
+•	Familiarity with modern programing methodologies:
+•	Development skills and experience with object oriented programming languages (Java/C#);
+•	Understanding of both Unix and Microsoft environments;
+•	Understanding of web development (modern web user interfaces and web services, Javascript, HTML5 and WebGL);
+•	Understanding of database management techniques and SQL databases.
+
+Profile 2:
+
+•	Knowledge of flight dynamics / orbital mechanics;
+•	Experience with flight dynamics software libraries and tools (e.g. Orekit, focusSuite, STK);
+•	SW development skills and experience with programming languages (e.g. Java).</Skills><Status>OPEN</Status><Title>Space Situational Awareness (SSA) Trainee</Title><TypePost>Trainee</TypePost><WorkUnit>Capability Development Division/ SSA Unit</WorkUnit></Vacancy></ArrayOfVacancy>
