@@ -4,7 +4,7 @@ import urllib
 import urllib.request
 from bs4 import BeautifulSoup
 from datetime import datetime
-
+import data_format
 
 
 def scrapEMSA():
@@ -61,18 +61,7 @@ def scrapEMSA():
 
         ad_raw = ad_code +" "+ ad_description
     # Identify type
-        if re.search('(AD+\d{1,2}?|AD)',ad_raw) is not None:
-            jobType="AD"
-        elif re.search('(AST+\d{1,2}?|AST +\d{1,2}?)',ad_raw)is not None:
-            jobType="AST"
-        elif re.search('(FG+\d|FG+III|FG+IV|Function Groups)',ad_raw)is not None:
-            jobType="CA"
-        elif re.search('(trainee)',ad_raw,re.IGNORECASE)is not None:
-            jobType="Trainee"
-        elif re.search('(SNE|Seconded)',ad_raw,re.IGNORECASE)is not None:
-            jobType="SNE"
-        else:
-            jobType="Other"
+        jobType = data_format.typeOfGrade(ad_raw)
 
         print (jobType)
 
