@@ -1,8 +1,6 @@
 import database as eurojust
-import re
 import urllib.request
 from bs4 import BeautifulSoup
-from datetime import datetime
 import data_format
 
 def scrapEurojust():
