@@ -7,6 +7,7 @@ from datetime import datetime
 
 
 
+
 def scrapEDA():
 
     print("#========================= EDA SCRAPING =========================")

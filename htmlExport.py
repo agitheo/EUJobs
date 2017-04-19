@@ -1,5 +1,5 @@
 import sqlite3
-from datetime import datetime
+import webbrowser
 import time
 from datetime import datetime
 
@@ -177,3 +177,5 @@ startdate = seriesType[0][0]
 #for scrapDate in seriesType:
 #    print (scrapDate[0])
     #data.write (seriesType[0]+","+seriesType[1]+","+seriesType[0]+","+
+
+webbrowser.open('http://localhost:63342/EUJobs/')
