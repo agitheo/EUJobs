@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import data_format
 import re
 
+
 def scrapESMA():
 
     print("#========================= ESMA SCRAPING =========================")

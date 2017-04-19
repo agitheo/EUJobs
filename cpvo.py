@@ -2,6 +2,7 @@ import database as cpvo
 import urllib.request
 from bs4 import BeautifulSoup
 import data_format
+import logging
 
 def scrapCPVO():
 
@@ -26,13 +27,13 @@ def scrapCPVO():
         if(child.find('th',attrs={'id':'vacancy_title'})):
             continue
         #print (child)
-        jobTitle = child.td.a.string
+        jobTitle = child.td.a.string.strip()
         jobLink = child.td.a.get('href')
-        jobCode = child.td.next_sibling.next_sibling.string
+        jobCode = child.td.next_sibling.next_sibling.string.strip()
         jobType = data_format.typeOfPost(jobCode)
         jobDeadline = data_format.dateFormatFull(child.td.next_sibling.next_sibling.next_sibling.next_sibling.next_sibling.next_sibling.string.strip())
 
-        print (jobTitle,jobLink,jobCode,jobType,jobDeadline)
+        logging.debug (jobTitle,jobLink,jobCode,jobType,jobDeadline)
         cpvo.persist(int(cpvo_id), str(jobTitle).strip(), '', '', jobCode, jobDeadline, jobLink, '', jobType)
 
     print("#========================CPVO SCRAPING COMPLETE=================================")
