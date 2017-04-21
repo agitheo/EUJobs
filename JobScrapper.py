@@ -15,6 +15,7 @@ import ema
 import cpvo
 import esma
 import bbi
+import eba
 
 database.clean()
 
@@ -45,6 +46,8 @@ esmaThread = threading.Thread(target=esma.scrapESMA)
 
 bbiThread = threading.Thread(target=bbi.scrapBBI)
 
+ebaThread = threading.Thread(target=eba.scrapEBA)
+
 eujustThread.start()
 epsoThread.start()
 eupolThread.start()
@@ -56,3 +59,4 @@ emaThread.start()
 cpvoThread.start()
 esmaThread.start()
 bbiThread.start()
+ebaThread.start()

@@ -71,4 +71,3 @@ def scrapEMSA():
     print("#========================EMSA SCRAPING COMPLETE=================================")
 
 
-

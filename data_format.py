@@ -10,7 +10,8 @@ def dateFormatFull(inputDate):
                  '%d %B %Y', '%d/%m/%Y', '%d.%m.%Y', '%d-%m-%Y', '%d%m%Y', '%Y-%m-%d']:
         try:
             dnotz = datetime.strptime(inputDate, form).date()
-            return str(dnotz)
+            #return str(dnotz)
+            return dnotz
         except:
             continue
 
