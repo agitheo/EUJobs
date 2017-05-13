@@ -19,6 +19,8 @@ import eba
 import cdt
 import eacea
 import etf
+import efsa
+import eiopa
 
 database.clean()
 
@@ -57,6 +59,10 @@ eaceaThread = threading.Thread(target=eacea.scrapEACEA)
 
 etfThread = threading.Thread(target=etf.scrapETF)
 
+efsaThread = threading.Thread(target=efsa.scrapEFSA)
+
+eiopaThread = threading.Thread(target=eiopa.scrapEIOPA)
+
 eujustThread.start()
 epsoThread.start()
 eupolThread.start()
@@ -72,3 +78,5 @@ ebaThread.start()
 cdtThread.start()
 eaceaThread.start()
 etfThread.start()
+efsaThread.start()
+eiopaThread.start()

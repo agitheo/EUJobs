@@ -2,7 +2,7 @@ import database as cdt
 import urllib.request
 from bs4 import BeautifulSoup
 import data_format
-import re
+
 
 def scrapCDT():
 

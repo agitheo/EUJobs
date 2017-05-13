@@ -1,5 +1,4 @@
 import database as emsa
-import re
 import urllib
 import urllib.request
 from bs4 import BeautifulSoup

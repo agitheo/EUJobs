@@ -3,7 +3,7 @@ import database as epso
 import urllib.request
 import data_format
 from bs4 import BeautifulSoup
-from datetime import datetime
+
 
 
 
@@ -42,16 +42,26 @@ def scrapEPSO():
             except:
                 inst_code = institute
 
+            check_institute = epso.EPSOinstitution(inst_code)
+
+            #print ("inst:" + check_institute)
+
+            if check_institute[2] == 1:
+                continue
+
             # Retrieve the agency's id from eu_institute
-            inst_id = epso.EPSOinstitution(inst_code)
+            inst_id = check_institute[0]
+
+            # Retrieve the agency's type from eu_institute
+            inst_type = check_institute[1]
 
             # Determine the grade
             jobType = data_format.typeOfGrade(grade)
 
 
             # Insert job details in database
-            epso.persist(inst_id[0], jobTitle, str(grade).strip(), str(institute).strip(), '', deadline, str(url).strip(), inst_id[1], jobType)
-            print (inst_id[0], jobTitle, str(grade).strip(), str(institute).strip(), '', deadline, str(url).strip(), inst_id[1], jobType)
+            epso.persist(inst_id, jobTitle, str(grade).strip(), str(institute).strip(), '', deadline, str(url).strip(), inst_type, jobType)
+            print (inst_id, jobTitle, str(grade).strip(), str(institute).strip(), '', deadline, str(url).strip(), inst_type, jobType)
 
         page = int(page) + 1
         epso_link = epso_link + str(page)

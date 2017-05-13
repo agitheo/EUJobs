@@ -29,6 +29,7 @@ def scrapETF():
         jobCode = child.div.p.a.string
         jobDeadline = data_format.dateFormatFull(str(child.div.p)[12:22])
         print (jobTitle, jobLink.replace(' ','%20'), jobCode, jobDeadline)
-        etf.persist(int(etf_id), str(jobTitle).strip(), '', '', jobCode, jobDeadline, jobLink, '', 'Other')
+        etf.persist(int(etf_id), str(jobTitle).strip(), '', '', jobCode, jobDeadline, jobLink.replace(' ','%20'), '', 'Other')
 
     print("#======================== ETF SCRAPING COMPLETE =================================")
+
