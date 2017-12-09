@@ -37,3 +37,4 @@ def scrapCPVO():
         cpvo.persist(int(cpvo_id), str(jobTitle).strip(), '', '', jobCode, jobDeadline, jobLink, '', jobType)
 
     print("#========================CPVO SCRAPING COMPLETE=================================")
+scrapCPVO()
