@@ -3,14 +3,17 @@ from datetime import datetime
 
 
 def dateFormatFull(inputDate):
-    if (inputDate==''):
+    if (inputDate == ''):
         return 'n/a'
+    elif (inputDate == 'SA'):
+        return 'See Announcement'
     dnotz = None
     for form in ['%d %b %Y', '%d %b %y', '%d %m %Y',
                  '%d %B %Y', '%d/%m/%Y', '%d.%m.%Y', '%d-%m-%Y', '%d%m%Y', '%Y-%m-%d']:
         try:
             dnotz = datetime.strptime(inputDate, form).date()
-            return str(dnotz)
+            #return str(dnotz)
+            return dnotz
         except:
             continue
 
@@ -21,7 +24,7 @@ def dateFormatFull(inputDate):
 
 
 def typeOfPost (type):
-    if re.search('Permanent', type):
+    if re.search('Permanent', type) or re.search('Official', type) :
         post = 'EU Off'
     elif re.search('Temporary', type) or re.search('AD', type):
         post = 'TA'

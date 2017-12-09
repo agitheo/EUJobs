@@ -15,6 +15,12 @@ import ema
 import cpvo
 import esma
 import bbi
+import eba
+import cdt
+import eacea
+import etf
+import efsa
+import eiopa
 
 database.clean()
 
@@ -45,6 +51,18 @@ esmaThread = threading.Thread(target=esma.scrapESMA)
 
 bbiThread = threading.Thread(target=bbi.scrapBBI)
 
+ebaThread = threading.Thread(target=eba.scrapEBA)
+
+cdtThread = threading.Thread(target=cdt.scrapCDT)
+
+eaceaThread = threading.Thread(target=eacea.scrapEACEA)
+
+etfThread = threading.Thread(target=etf.scrapETF)
+
+efsaThread = threading.Thread(target=efsa.scrapEFSA)
+
+eiopaThread = threading.Thread(target=eiopa.scrapEIOPA)
+
 eujustThread.start()
 epsoThread.start()
 eupolThread.start()
@@ -56,3 +74,9 @@ emaThread.start()
 cpvoThread.start()
 esmaThread.start()
 bbiThread.start()
+ebaThread.start()
+cdtThread.start()
+eaceaThread.start()
+etfThread.start()
+efsaThread.start()
+eiopaThread.start()

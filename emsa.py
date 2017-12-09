@@ -1,5 +1,4 @@
 import database as emsa
-import re
 import urllib
 import urllib.request
 from bs4 import BeautifulSoup
@@ -69,6 +68,5 @@ def scrapEMSA():
         emsa.persist(int(emsa_id), str(ad_description).strip(), '', '', str(ad_code).strip(), deadline, str(ad_url).strip(), '', jobType)
 
     print("#========================EMSA SCRAPING COMPLETE=================================")
-
 
 

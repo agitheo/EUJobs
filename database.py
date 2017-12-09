@@ -45,14 +45,17 @@ def EPSOinstitution(inst_code):
 
     try:
         cur.execute('''
-        SELECT id FROM eu_institute WHERE name=?''', (inst_code,))
-        inst_id = cur.fetchone()[0]
-        print(inst_id)
+        SELECT id,checkType FROM eu_institute WHERE name=?''', (inst_code,))
+        results = cur.fetchone()
+        inst_id = results[0]
+        check = results[1]
+        #print(inst_id,check)#, checkType)
         other = 'EPSO'
-        return inst_id, other
+        return inst_id, other, check
     except:
         print("No information for agency/institution: " + str(inst_code).strip())
         inst_id = 1
         other = 'EPSO'
-        return inst_id, other
-
+        check = 2
+        return inst_id, other, check
+#print (EPSOinstitution('EFSA')[2])

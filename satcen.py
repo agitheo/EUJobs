@@ -17,7 +17,6 @@ def scrapSatCen():
     soup = BeautifulSoup(SatCen_source,'html.parser')
 
 
-
         #Convert to bytes
     bytesEncoded = soup.encode('utf-8')
 #Convert to string
