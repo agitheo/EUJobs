@@ -45,4 +45,3 @@ def scrapBBI():
 
     print("#========================BBI SCRAPING COMPLETE=================================")
 
-scrapBBI()
