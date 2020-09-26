@@ -23,7 +23,7 @@ logging.basicConfig(level=logging.INFO,
                     )
 
 
-epsoThread = threading.Thread(target=epso.scrapEPSO)
+#epsoThread = threading.Thread(target=epso.scrapEPSO)
 
 eupolThread = threading.Thread(target=eupol.scrapEUROPOL)
 
@@ -46,7 +46,7 @@ esmaThread = threading.Thread(target=esma.scrapESMA)
 bbiThread = threading.Thread(target=bbi.scrapBBI)
 
 eujustThread.start()
-epsoThread.start()
+#epsoThread.start()
 eupolThread.start()
 emsaThread.start()
 edaThread.start()
