@@ -14,6 +14,8 @@ def scrapGSA():
     gsa_link = gsaData['link'][0]
     gsa_id = gsaData['id'][0]
 
+
+
     pages = {"CATA": "gsa/jobs-opportunities", "TR": "traineeship-listing", "SNE": "gsa-seconded-national-experts"}
 
     for pairs in pages:
@@ -24,20 +26,26 @@ def scrapGSA():
         html = urllib.request.urlopen(page_link)
         soup = BeautifulSoup(html, "html.parser")
 
+        print(page_link)
+
 
         # Create the soup
-        start = soup.find('tbody')
+        start = soup.find(attrs='views-table cols-5 table table-striped table-bordered table-0 table-0')
         today = datetime.datetime.today().date()
+
+        realStart = str(start).strip('</p>')
 
 
         # Find the jobs table
-        Jobtable = (start.findAll('tr'))
+        #Jobtable = (realStart.findAll ('tr'))
 
-        for cell in Jobtable:
-
-            td = cell.findAll('td')
-            print (td[0])
+        print(realStart)
 '''
+        for cell in Jobtable:
+            jobCodeLocation = cell.td
+            jobTitleLocation = jobCodeLocation.next_sibling
+            print (jobCodeLocation.string,jobTitleLocation)
+
             try:
                 status = td[3].string.strip()
                 rawDate = td[2].string
